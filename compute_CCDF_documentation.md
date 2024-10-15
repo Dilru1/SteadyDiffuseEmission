@@ -3,6 +3,17 @@
 ## Overview
 The `compute_ccdfs` function computes the Complementary Cumulative Distribution Functions (CCDF) from a given dataset of y-values (probability density), x-values, and an exp flag. The function returns a list of CCDFs for each data entry.
 
+Welcome to my project!
+
+Here is a cool diagram showing the architecture:
+
+![Architecture Diagram](plot_221.png)
+
+Hope you like it!
+
+
+
+
 ## Mathematical Background
 
 ### CCDF Definition
