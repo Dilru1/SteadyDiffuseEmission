@@ -73,7 +73,7 @@ In this case, the photon counts are simulated with the following values:
 
 This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right. This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right. This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right.
 
-| ![Alt text](constant.png) | 
+| <img src="constant.png" alt="Alt text for Image 1" width="400"/> | 
 This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right. This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right. This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right.
 . |
 |---------------------------------|--------------------------------|
