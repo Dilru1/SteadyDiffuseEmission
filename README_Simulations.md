@@ -1,104 +1,81 @@
 # Simulated Case for 6.4 keV Line Patterns
 
-This repository contains code and documentation for simulating different patterns of the 6.4 keV line (increasing, decreasing, constant, peak, etc.) over five epochs. The simulation aims to understand the expected photon counts under specific assumptions.
-
-## Project Description
-
-In this simulation, we analyze various patterns of the 6.4 keV line using a constant continuum level. The goal is to generate simulated photon counts based on real observation times and specific assumptions regarding the photon rates.
+This simulation analyzes various patterns of the 6.4 keV line (such as increasing, decreasing, constant, and peak) across five epochs. The goal is to understand the expected steady emission for the simulated 6.4 keV line.
 
 ### Assumptions
-- **Constant continuum levels:** 12 × 10^(-8) ph cm^(-2) s^(-2)
-- **Real observation time:** [Provide specifics if applicable, or just state it's based on actual observational data.]
+The simulation generates photon counts based on real observation times, with the following specific assumptions regarding the photon rates:
 
-## Simulation Details
-
-### Case 1: Constant Pattern
-
-In this case, the photon counts are simulated with the following values:
-- **Continuum rates (`muc`):** 
-  - [8 × 10^(-8) for each of the five epochs]
-  
+- **Constant Continuum Levels (`muc`)** (array-like): \(8 	imes 10^{-8} \, 	ext{ph cm}^{-2} 	ext{s}^{-2}\)
+- **Real Observation Time (`EXP`)** (array-like): 
   ```python
-  muc = [8e-8, 8e-8, 8e-8, 8e-8, 8e-8]
+  exp = [10318996.1408372, 83623801.91439006, 112838731.22452486, 257356538.3407589, 80569410.54103501]
   ```
-
-- **Line rates (`mul`):**
-  - [12 × 10^(-8) for each of the five epochs]
-
-  ```python
-  mul = [12e-8, 12e-8, 12e-8, 12e-8, 12e-8]
-  ```
+- **Simulated 6.4 keV Line Rates (`mul`)** (array-like): [Provide specifics about these values.]
 
 ### Expected Photon Counts
 
-The expected photon counts are calculated as follows:
+The expected photon counts are computed as follows:
 
 ```python
 expected_photons_cont = [n * u for n, u in zip(muc, EXP)]
 expected_photons_line = [n * u for n, u in zip(mul, EXP)]
 ```
 
-Where `EXP` represents the actual observation time for each epoch.
-
 ### Simulation Logic
 
-The simulation iterates through the expected photon counts, generating Poisson random variables to simulate observed counts:
+The simulation iterates through the expected photon counts and generates Poisson random variables to simulate the observed counts:
 
 ```python
 ntot = []
 nc = []
-uncertainty = []
-ntot_exp_values = []  
 
 for i, j in zip(expected_photons_cont, expected_photons_line):
-    poisson_RV_muc = np.random.poisson(i, 1)[0] 
+    poisson_RV_muc = np.random.poisson(i, 1)[0]
     poisson_RV_mul = np.random.poisson(j, 1)[0]
-      
+
     ntot_value = poisson_RV_muc + poisson_RV_mul
     ntot.append(ntot_value)
     nc.append(poisson_RV_muc)
-    uncertainty.append(np.sqrt(ntot_value))
 ```
 
 ### Outputs
 
 After running the simulation, the following outputs are generated:
-- **Total counts (`ntot`)**: The sum of the constant and line photon counts.
-- **Expected photon counts for continuum (`expected_photons_cont`)**.
-- **Expected photon counts for line (`expected_photons_line`)**.
+- **Total Counts (`ntot`)**: The sum of the constant and line photon counts.
+- **Expected Photon Counts for Continuum (`expected_photons_cont`)**.
+- **Expected Photon Counts for Line (`expected_photons_line`)**.
 
-### Example Results
+## Results
 
-The final results will include:
+### Case 1: Constant 6.4 keV Line
 
-```python
-print("ntot:", ntot)
-print("mucont:", expected_photons_cont)
-print("exp:", EXP)
-print("mul:", mul)
-```
+In this case, the photon counts are simulated with the following values:
 
-### Error Calculation
+- **Constant Continuum Levels (`muc`)**:
+  ```python
+  muc = [8e-8, 8e-8, 8e-8, 8e-8, 8e-8]
+  ```
 
-Simulated line values are calculated to assess the difference between observed and expected photon counts:
+- **Simulated 6.4 keV Line Rates (`mul`)**:
+  ```python
+  mul = [12e-8, 12e-8, 12e-8, 12e-8, 12e-8]
+  ```
 
-```python
-simulatedline = [(a - b) / c for a, b, c in zip(ntot, expected_photons_cont, EXP)]
-simulatedline_error = [np.sqrt(a + b) / c for a, b, c in zip(ntot, expected_photons_cont, EXP)]
-```
+### Simulation Outputs
 
-## Running the Simulation
+- **Total Counts (`ntot`)**: 
+  ```python
+  ntot = [3, 24, 14, 52, 9]
+  ```
 
-To run the simulation, make sure you have Python installed along with the required libraries. You can execute the main script to generate the simulations.
+- **Counts from Continuum (`nc`)**: 
+  ```python
+  nc = [0.83, 6.69, 9.03, 20.59, 6.45]  # Rounded for clarity
+  ```
 
-```bash
-python simulate.py
-```
+- **Real Observation Time (`exp`)**: 
+  ```python
+  exp = [10318996.14, 83623801.91, 112838731.22, 257356538.34, 80569410.54]  # Rounded for clarity
+  ```
 
-## Contributing
-
-Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+---
