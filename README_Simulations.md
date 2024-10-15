@@ -60,22 +60,10 @@ In this case, the photon counts are simulated with the following values:
   ```python
   mul = [12e-8, 12e-8, 12e-8, 12e-8, 12e-8]
   ```
-
 ### Simulation Outputs
 
-- **Total Counts (`ntot`)**: 
-  ```python
-  ntot = [3, 24, 14, 52, 9]
-  ```
-
-- **Counts from Continuum (`nc`)**: 
-  ```python
-  nc = [0.83, 6.69, 9.03, 20.59, 6.45]  # Rounded for clarity
-  ```
-
-- **Real Observation Time (`exp`)**: 
-  ```python
-  exp = [10318996.14, 83623801.91, 112838731.22, 257356538.34, 80569410.54]  # Rounded for clarity
-  ```
+- **Total Counts (`ntot`)**: `[3, 24, 14, 52, 9]`  
+- **Counts from Continuum (`nc`)**: `[0.83, 6.69, 9.03, 20.59, 6.45]`  # Rounded for clarity  
 
 ---
+
