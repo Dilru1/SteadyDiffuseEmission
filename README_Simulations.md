@@ -71,6 +71,55 @@ In this case, the photon counts are simulated with the following values:
 <img src="constant.png" alt="Alt text for Image 1" width="400"/>
 *Caption for Image 1*
 
-
 ---
 
+### Case 2: Constant 6.4 keV Line
+
+In this case, the photon counts are simulated with the following values:
+
+- **Constant Continuum Levels (`muc`)**: `[8e-8, 8e-8, 8e-8, 8e-8, 8e-8]`
+- **Simulated 6.4 keV Line Rates (`mul`)**:`[12e-8, 12e-8, 12e-8, 12e-8, 12e-8]` 
+
+
+#### Simulation Outputs
+
+- **Total Counts (`ntot`)**: `[3, 24, 14, 52, 9]`  
+- **Counts from Continuum (`nc`)**: `[0.83, 6.69, 9.03, 20.59, 6.45]`   
+
+
+#### Steady emission level estimation 
+
+
+![Alt text for Image 2](graph_constant_density.png)
+*Caption for Image 2*
+
+
+<img src="constant.png" alt="Alt text for Image 1" width="400"/>
+*Caption for Image 1*
+
+---
+### Case 3: Constant 6.4 keV Line
+
+In this case, the photon counts are simulated with the following values:
+
+- **Constant Continuum Levels (`muc`)**: `[8e-8, 8e-8, 8e-8, 8e-8, 8e-8]`
+- **Simulated 6.4 keV Line Rates (`mul`)**:`[12e-8, 12e-8, 12e-8, 12e-8, 12e-8]` 
+
+
+#### Simulation Outputs
+
+- **Total Counts (`ntot`)**: `[3, 24, 14, 52, 9]`  
+- **Counts from Continuum (`nc`)**: `[0.83, 6.69, 9.03, 20.59, 6.45]`   
+
+
+#### Steady emission level estimation 
+
+
+![Alt text for Image 2](graph_constant_density.png)
+*Caption for Image 2*
+
+
+<img src="constant.png" alt="Alt text for Image 1" width="400"/>
+*Caption for Image 1*
+
+---
