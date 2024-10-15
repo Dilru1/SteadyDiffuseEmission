@@ -69,7 +69,7 @@ In this case, the photon counts are simulated with the following values:
 
 
 <figure style="float: right; margin-left: 15px; width: 300px;">
-  <img src="constant.png" alt="Sample Image" style="width: 100%;">
+  <img src="constant.png" alt="Sample Image" style="width: 50%;">
   <figcaption>This is the caption wrapped with the image on the right side.</figcaption>
 </figure>
 
