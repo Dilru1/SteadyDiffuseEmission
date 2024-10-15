@@ -64,14 +64,23 @@ In this case, the photon counts are simulated with the following values:
 #### Steady emission level estimation 
 
 
+![Alt text for Image 2](graph_constant_density.png)
+*Caption for Image 2*
+
+
+<figure style="float: right; margin-left: 15px; width: 300px;">
+  <img src="constant.png" alt="Sample Image" style="width: 100%;">
+  <figcaption>This is the caption wrapped with the image on the right side.</figcaption>
+</figure>
+
+This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right.
+
 
 <img src="constant.png" alt="Alt text for Image 1" width="400"/>
 *Caption for Image 1*
 
 
 
-![Alt text for Image 2](graph_constant_density.png)
-*Caption for Image 2*
 
 ---
 
