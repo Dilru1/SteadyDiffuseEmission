@@ -83,6 +83,11 @@ This text will wrap around the image and the caption. You can continue typing he
 *Caption for Image 1*
 
 
+<figure>
+  <img src="constant.png" alt="Alt text" width="300"/>
+  <figcaption>This is the caption for the image.</figcaption>
+</figure>
+
 
 
 ---
