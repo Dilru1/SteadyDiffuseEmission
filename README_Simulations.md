@@ -68,26 +68,8 @@ In this case, the photon counts are simulated with the following values:
 *Caption for Image 2*
 
 
-<img src="constant.png" alt="Image description" style="float: left; margin-right: 10px; width: 200px;"/>
-
-
-This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right. This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right. This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right.
-
-| <img src="constant.png" alt="Alt text for Image 1" width="400"/> | 
-This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right. This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right. This text will wrap around the image and the caption. You can continue typing here, and the text will automatically flow around the image on the right.
-. |
-|---------------------------------|--------------------------------|
-
-
 <img src="constant.png" alt="Alt text for Image 1" width="400"/>
 *Caption for Image 1*
-
-
-<figure>
-  <img src="constant.png" alt="Alt text" width="300"/>
-  <figcaption>This is the caption for the image.</figcaption>
-</figure>
-
 
 
 ---
