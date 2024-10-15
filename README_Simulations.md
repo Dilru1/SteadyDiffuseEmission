@@ -63,8 +63,12 @@ In this case, the photon counts are simulated with the following values:
 
 #### Steady emission level estimation 
 
-![Alt text for Image 1](constant.png)
+
+
+<img src="constant.png" alt="Alt text for Image 1" width="400"/>
 *Caption for Image 1*
+
+
 
 ![Alt text for Image 2](graph_constant_density.png)
 *Caption for Image 2*
