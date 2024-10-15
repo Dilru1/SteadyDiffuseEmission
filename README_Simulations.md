@@ -55,10 +55,19 @@ In this case, the photon counts are simulated with the following values:
 - **Simulated 6.4 keV Line Rates (`mul`)**:`[12e-8, 12e-8, 12e-8, 12e-8, 12e-8]` 
 
 
-### Simulation Outputs
+#### Simulation Outputs
 
 - **Total Counts (`ntot`)**: `[3, 24, 14, 52, 9]`  
 - **Counts from Continuum (`nc`)**: `[0.83, 6.69, 9.03, 20.59, 6.45]`   
+
+
+#### Steady emission level estimation 
+
+![Alt text for Image 1](constant.png)
+*Caption for Image 1*
+
+![Alt text for Image 2](graph_constant_density.png)
+*Caption for Image 2*
 
 ---
 
