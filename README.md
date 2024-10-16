@@ -10,11 +10,11 @@ This directory contains the standard data reduction pipeline, originally develop
 The *Terrier et al. (2018)* scripts have been updated to Python 3 and adapted for execution on the *IPAG computer cluster*. This version uses remote server interactions and includes updated file locations as follows.
 
 ```bash
-remote_user="dehiwald"  # replace with actual user
+remote_user="dehiwald"  # replace with different user
 remote_host="ipag-oar.u-ga.fr"
-remote_dir="/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python"  # replace with the local directory 
+remote_dir="/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python"  # modify with the local directory 
 ```
-Ensure that the following directories are correctly set in each script:
+Make sure that the following directories are **replaced** in each script:
 
 ```bash
 export WORKDIR=/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python
@@ -24,9 +24,9 @@ export ANAPATH=/user/home/dehiwald/workdir/galactic_center/analysis
 
 
 ### Script List (located at `WORKDIR`):
-1. **NXSA-Results-1646402050141.txt** : A target observation table for a region of interest (Sgr B) as obtained from the XMM Science Archive.
+1. **NXSA-Results-1646402050141.txt** : The target observation table for a region of interest (Sgr B) as obtained from the XMM Science Archive. 
 
-2. **ssl_download.sh** (New script, 2024): Download and extract ODF of all the observations from the XMM Science Archive to the specified location on the IPAG cluster.
+2. **ssl_download.sh** (New script, 2024): Download and extract ODF of all the observations from the XMM Science Archive to the specified location on the IPAG cluster as:
 
 ```bash
 export DATAPATH=/user/home/dehiwald/workdir/galactic_center/data
