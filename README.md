@@ -1,15 +1,13 @@
 
-# Steady_DiffuseEmission
-This repository contains scripts for extracting steady diffuse X-ray emission from the Galactic Center.
+# Diffuse Steady X-ray Emission
+This repository contains scripts and methods designed for extracting uniform baseline diffuse X-ray emission from the Central Molecular Zone (CMZ), focusing on the Sgr B molecular cloud region.
 
 
-### Part 1: Main Pipeline :Scripts for 6.4 keV Emission - ![Text](https://img.shields.io/badge/Directory-ScriptsFor6.4keVEmission-red)
+### Part 1: Main Pipeline: Scripts for 6.4 keV Emission - ![Text](https://img.shields.io/badge/Directory-ScriptsFor6.4keVEmission-red)
 
+This directory contains the standard data reduction pipeline, originally developed by *Terrier et al. (2018)*, for processing XMM-Newton data and generating continuum-subtracted 6.4 keV mosaics for each epoch.
 
-This directory contains standard science reduction scripts originally developed by **terrier et al. (2018)** for processing XMM-Newton data and generating 6.4 keV mosaics for each epoch.
-
-The scripts of **terrier et al. (2018)** have been modified for Python 3 and adapted to run on the *IPAG computer cluster*. This version used following remote server interactions and change the locations. 
-
+The *Terrier et al. (2018)* scripts have been updated to Python 3 and adapted for execution on the *IPAG computer cluster*. This version uses remote server interactions and includes updated file locations as follows.
 
 ```bash
 remote_user="dehiwald"  # replace with actual user
