@@ -88,7 +88,7 @@ This directory contains statistical methods developed by Maica, Gilles, and Dilr
 The following scripts have been created to extract the steady emission for each pixel in the continuum-subtracted 6.4 keV XMM-Newton maps. These scripts and the **maps_eff/** directory can be uploaded to the IPAG cluster for *parallel* execution.
 
 ```markdown
-# Project Code Organization
+1. # Project Code Organization
 
 - main.py
   - data.py
@@ -102,7 +102,7 @@ The following scripts have been created to extract the steady emission for each 
   - Poisson_Maps.py
 ```
 
- **main.py** processes all 900 pixels in parallel. It handles n epochs per pixel (Total 900 x n calculations). The script first extracts the data for these n epochs. This inputs include the continuum levels (μ_cont) and the total number of photons (N_tot) for each epoch. Then, the script calculates the probability density function (p.d.f.) of the 6.4 keV line using Bayesian probability and subsequently computes the complementary cumulative distribution function (CCDF) as the p.d.f. of the steady emission for each epoch. After obtaining each p.d.f., a minimum curve is obtained to represent the p.d.f of steady emission across all n epochs. The rejection estimation criteria are also applied, and the 50% and 95% values are obtained as estimation of the steady emission.
+2. **main.py** processes all 900 pixels in parallel. It handles n epochs per pixel (Total 900 x n calculations). The script first extracts the data for these n epochs. This inputs include the continuum levels (μ_cont) and the total number of photons (N_tot) for each epoch. Then, the script calculates the probability density function (p.d.f.) of the 6.4 keV line using Bayesian probability and subsequently computes the complementary cumulative distribution function (CCDF) as the p.d.f. of the steady emission for each epoch. After obtaining each p.d.f., a minimum curve is obtained to represent the p.d.f of steady emission across all n epochs. The rejection estimation criteria are also applied, and the 50% and 95% values are obtained as estimation of the steady emission.
 
 **Output:**  
 This pipeline processes all 900 pixels and creates two text files: 
@@ -119,7 +119,7 @@ Run *plot_steady_maps.py* to create standard FITS files using these values:
 *Estimation of the Upper Limit for Steady X-ray Emission from the Sgr B Molecular Cloud: 50% estimation (left) and 95% estimation (right)*
 
 
-**Poisson_Maps.py** processes all 900 pixels in each epoch to create Poisson maps. These Poisson maps utilize the density-estimated 6.4 keV flux instead of the continuum-subtracted values and are used to extract the spectrum of the steady emission.
+3. **Poisson_Maps.py** processes all 900 pixels in each epoch to create Poisson maps. These Poisson maps utilize the density-estimated 6.4 keV flux instead of the continuum-subtracted values and are used to extract the spectrum of the steady emission.
 
 **Note:**
 
