@@ -7,11 +7,12 @@ This directory contains standard science reduction scripts originally developed 
 
 The scripts by Regis Terrier (2018) have been modified for Python 3 and adapted to run on the IPAG computer cluster.
 
-\```bash
+
+```bash
 remote_user="dehiwald"  # replace with actual user
 remote_host="ipag-oar.u-ga.fr"
 remote_dir="/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python"  # replace with the local directory
-\```
+
 
 ### Script List:
 1. **NXSA-Results-1646402050141.txt**  
@@ -47,7 +48,8 @@ export ANAPATH=/user/home/dehiwald/workdir/galactic_center/analysis
 This script is invoked as the second loop in `ssl_launch_esas_job_ima_mosa.sh` to rebin the original count image and zoom into the required region (e.g., Sgr B). 
 
 Example:
-\```bash
+
+```bash
 if [ $name == 'SgrB2' ]; then
     ra=266.86174642
     dec=-28.42722147
@@ -59,7 +61,7 @@ if [ $name == 'SgrB2' ]; then
         pixel=30
     fi
 fi
-\```
+
 
 **Note:**  
 The scripts were initially written for an older version of SAS. Newer versions may require significant modifications. However, the IPAG cluster utilizes a Dockerized version of SAS that uses the older compatible version.
