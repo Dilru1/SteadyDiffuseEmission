@@ -3,6 +3,9 @@
 This repository contains scripts for extracting steady diffuse X-ray emission from the Galactic Center.
 
 ### Part 1: Main Pipeline - Directory: `ScriptsFor6.4keVEmission`
+<span style="color: red">This text is red.</span>
+
+
 This directory contains standard science reduction scripts originally developed by Regis Terrier (2018) for processing XMM-Newton data and generating 6.4 keV mosaics for each epoch.
 
 The scripts by Regis Terrier (2018) have been modified for Python 3 and adapted to run on the IPAG computer cluster.
