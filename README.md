@@ -130,9 +130,5 @@ In line:350 in **main.py** for plots. This function will plot the probability de
 
 
 ![Probability Density Curves](Documentation/Images/graph_rand_density.png)
-
-*Probability density curves for line emission, represented by dP_total / dμ_line as a function of μ_line, for Pixel_{i=15, j=8} in the data cube (see Figure \ref{fig:datacube}) on the left. The probability density curves for the steady emission, or dP_steady / dμ_steady as a function of μ_steady, are represented as the CCDF of the line on the right. The combined density of the steady emission is plotted in black, representing the minimum of each density curve. 
-
-The density curve for the steady emission is not normalized (although it should be), meaning it rescales the y-axis only and does not affect the flux values on the x-axis. The 50% and 95% estimation values for the steady emission are indicated by vertical dashed red lines.*
-
+*Probability density curves for line emission, represented by dP_total / dμ_line as a function of μ_line, for Pixel_{i=15, j=8} in the data cube (see Figure \ref{fig:datacube}) on the left. The probability density curves for the steady emission, or dP_steady / dμ_steady as a function of μ_steady, are represented as the CCDF of the line on the right. The combined density of the steady emission is plotted in black, representing the minimum of each density curve.*
 
