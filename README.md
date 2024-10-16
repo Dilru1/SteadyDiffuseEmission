@@ -42,7 +42,7 @@ Ensure that the following directories are correctly set in each script:
 export WORKDIR=/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python
 export DATAPATH=/user/home/dehiwald/workdir/galactic_center/data
 export ANAPATH=/user/home/dehiwald/workdir/galactic_center/analysis
-
+```
 
 
 ### Part B: `make_mosa_sub.sh` Script
@@ -62,7 +62,7 @@ if [ $name == 'SgrB2' ]; then
         pixel=30
     fi
 fi
-
+```
 
 **Note:**  
 The scripts were initially written for an older version of SAS. Newer versions may require significant modifications. However, the IPAG cluster utilizes a Dockerized version of SAS that uses the older compatible version.
