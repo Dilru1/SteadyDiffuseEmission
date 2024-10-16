@@ -88,21 +88,42 @@ This directory contains statistical methods developed by Maica, Gilles, and Dilr
 The following scripts have been created to extract the steady emission for each pixel in the continuum-subtracted 6.4 keV XMM-Newton maps. These scripts and the **maps_eff/** directory can be uploaded to the IPAG cluster for fast execution.
 
 ```markdown
-# Project Directory Structure
+# Project Script Structure
 
-- **main.py**
-  - *data.py*
-  - *density_cal.py*
-  - *intersections.py*
-  - *ccdf.py* 
-  - *pmf.py*
-  - *plots.py*
-  - *pmf.py*
-  - *plot_steady_maps.py*
+- main.py
+  - data.py
+  - density_cal.py
+  - intersections.py
+  - ccdf.py
+  - pmf.py
+  - plots.py
+  - pmf.py
+  - plot_steady_maps.py
 
 ```
 
- **main.py** processes all 900 pixels in parallel, handling multiple epochs for each pixel. The script first extracts the data for these n epochs. The inputs include the continuum levels and the total number of photons for each epoch corresponding to that pixel. Then, the script calculates the probability density function (p.d.f.) of the 6.4 keV line using Bayesian probability and subsequently computes the complementary cumulative distribution function (CCDF) as the p.d.f. of the steady emission for each epoch. After obtaining each p.d.f., a minimum curve is derived to represent the steady emission across all n epochs. The rejection estimation criteria are also applied, and the 50% and 95% values are recalculated.
+ **main.py** processes all 900 pixels in parallel. It handles n epochs for each pixel. The script first extracts the data for these n epochs. This inputs include the continuum levels and the total number of photons for each epoch corresponding to that pixel. Then, the script calculates the probability density function (p.d.f.) of the 6.4 keV line using Bayesian probability and subsequently computes the complementary cumulative distribution function (CCDF) as the p.d.f. of the steady emission for each epoch. After obtaining each p.d.f., a minimum curve is obtained to represent the p.d.f of steady emission across all n epochs. The rejection estimation criteria are also applied, and the 50% and 95% values are obtained as estimation of the steady emission.
 
+**plot_steady_maps.py** processes all 900 pixels in each epoch to create Poisson maps. These Poisson maps utilize the density-estimated 6.4 keV flux instead of the continuum-subtracted values and are used to extract the spectrum of the steady emission.
 
- 
+**Note:**
+
+1. Use the following function in **main.py** to test a single epoch:
+
+    ```python
+    if __name__ == "__main__":
+        if len(sys.argv) > 1:
+            i = int(sys.argv[1])
+            print(f"The Pixel number: {i}")
+            MAIN(i)
+        else:
+            print("No variable passed as argument. Please provide an index value.")
+    ```
+
+2. Also, use:
+
+    ```python
+    plot_result(index, years, filtered_years, data, x_common, interpolated_y_values, x_common_filtered, interpolated_y_values_filtered, old_intersections, new_intersections)
+    ```
+
+   This function will plot the probability density of the 6.4 keV line, the steady emission, the steady emission after applying the rejection criteria, and the Poisson light curve for a single pixel.
