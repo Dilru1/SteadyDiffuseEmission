@@ -116,7 +116,7 @@ Run *plot_steady_maps.py* to create standard FITS files using these values:
 
 
 ![Steady Map](Documentation/Images/maps.png)
-*Probability density curves for line emission, represented by dP_total / dμ_line as a function of μ_line, for Pixel_{i=15, j=8} in th*
+*Estimation of the Upper Limit for Steady X-ray Emission from the Sgr B Molecular Cloud: 50% estimation (left) and 95% estimation (right)*
 
 
 **Poisson_Maps.py** processes all 900 pixels in each epoch to create Poisson maps. These Poisson maps utilize the density-estimated 6.4 keV flux instead of the continuum-subtracted values and are used to extract the spectrum of the steady emission.
@@ -146,4 +146,14 @@ In line:350 in **main.py** for plots. This function will plot the probability de
 
 ![Probability Density Curves](Documentation/Images/graph_rand_density.png)
 *Probability density curves for line emission, represented by dP_total / dμ_line as a function of μ_line, for Pixel_{i=15, j=8} in the data cube (see Figure \ref{fig:datacube}) on the left. The probability density curves for the steady emission, or dP_steady / dμ_steady as a function of μ_steady, are represented as the CCDF of the line on the right. The combined density of the steady emission is plotted in black, representing the minimum of each density curve.*
+
+
+
+
+
+
+
+
+### Part 3: Spectroscopy of Steady Emission - ![Text](https://img.shields.io/badge/Directory-ScriptsForSteadySpectran-green)
+
 
