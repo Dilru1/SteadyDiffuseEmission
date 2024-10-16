@@ -35,13 +35,13 @@ remote_dir="/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python"  # r
 ### Required Edits for Directory Locations:
 Ensure that the following directories are correctly set in each script:
 
-\```bash
 
+```bash
 export WORKDIR=/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python
 export DATAPATH=/user/home/dehiwald/workdir/galactic_center/data
 export ANAPATH=/user/home/dehiwald/workdir/galactic_center/analysis
 
-\```
+
 
 ### Part B: `make_mosa_sub.sh` Script
 This script is invoked as the second loop in `ssl_launch_esas_job_ima_mosa.sh` to rebin the original count image and zoom into the required region (e.g., Sgr B). 
