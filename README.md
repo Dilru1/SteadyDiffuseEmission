@@ -88,6 +88,12 @@ This directory contains statistical methods developed by Maica, Gilles, and Dilr
 The following scripts have been created to extract the steady emission for each pixel in the continuum-subtracted 6.4 keV XMM-Newton maps. These scripts and the **maps_eff/** directory can be uploaded to the IPAG cluster for fast execution.
 
 
+```mermaid
+graph TD;
+    A[Main Script] --> B[Helper Script 1]
+    A --> C[Helper Script 2]
+    B --> D[Utility Script]
+
 1. **main.py**
 2. *data.py*
 3. *density_cal.py*
