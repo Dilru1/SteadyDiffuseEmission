@@ -81,14 +81,14 @@ fi
 
 ### Part 2: Morphology of Steady Emission - ![Text](https://img.shields.io/badge/Directory-ScriptsForSteadyEmission-blue)
 
-This directory contains statistical methods developed by Maica, Gilles, and Dilruwan for extracting steady emission using rebinned continuum-subtracted 6.4 keV XMM-Newton flux maps (rebinned to 30 arcseconds, zoomed into Sgr B). The maps can be found in the **maps_eff/** directory, which is the output from **Part 1**.
+This directory contains statistical methods developed by Maica, Gilles, and Dilruwan for extracting baseline steady X-ray emission from the GC using the continuum-subtracted 6.4 keV XMM-Newton flux maps (rebinned to 30 arcseconds, zoomed into Sgr B). The maps can be found in the **maps_eff/** directory, which is the output from **Part 1**.  Make sure this directory is placed in the same location as the scripts.
 
 ### Script List (located in the local/IPAG directory):
 
-The following scripts have been created to extract the steady emission for each pixel in the continuum-subtracted 6.4 keV XMM-Newton maps. These scripts and the **maps_eff/** directory can be uploaded to the IPAG cluster for fast execution.
+The following scripts have been created to extract the steady emission for each pixel in the continuum-subtracted 6.4 keV XMM-Newton maps. These scripts and the **maps_eff/** directory can be uploaded to the IPAG cluster for *parallel* execution.
 
 ```markdown
-# Project Script Structure
+# Project Code Organization
 
 - main.py
   - data.py
@@ -102,7 +102,7 @@ The following scripts have been created to extract the steady emission for each 
   - Poisson_Maps.py
 ```
 
- **main.py** processes all 900 pixels in parallel. It handles n epochs for each pixel. The script first extracts the data for these n epochs. This inputs include the continuum levels and the total number of photons for each epoch corresponding to that pixel. Then, the script calculates the probability density function (p.d.f.) of the 6.4 keV line using Bayesian probability and subsequently computes the complementary cumulative distribution function (CCDF) as the p.d.f. of the steady emission for each epoch. After obtaining each p.d.f., a minimum curve is obtained to represent the p.d.f of steady emission across all n epochs. The rejection estimation criteria are also applied, and the 50% and 95% values are obtained as estimation of the steady emission.
+ **main.py** processes all 900 pixels in parallel. It handles n epochs per pixel (Total 900 x n calculations). The script first extracts the data for these n epochs. This inputs include the continuum levels (μ_cont) and the total number of photons (N_tot) for each epoch. Then, the script calculates the probability density function (p.d.f.) of the 6.4 keV line using Bayesian probability and subsequently computes the complementary cumulative distribution function (CCDF) as the p.d.f. of the steady emission for each epoch. After obtaining each p.d.f., a minimum curve is obtained to represent the p.d.f of steady emission across all n epochs. The rejection estimation criteria are also applied, and the 50% and 95% values are obtained as estimation of the steady emission.
 
 **Output:**  
 This pipeline processes all 900 pixels and creates two text files: 
