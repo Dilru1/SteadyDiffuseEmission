@@ -115,7 +115,9 @@ Run *plot_steady_maps.py* to create standard FITS files using these values:
 - `mosa_steady_map_95lim_30arcsec.fits`: Represents the FITS values of the 95% steady estimation for the Sgr B region.
 
 
-![Steady Map](Documentation/Images/flux_maps_min_GK_FINAL.png)
+![Steady Map](Documentation/Images/maps.png)
+*Probability density curves for line emission, represented by dP_total / dμ_line as a function of μ_line, for Pixel_{i=15, j=8} in th*
+
 
 **Poisson_Maps.py** processes all 900 pixels in each epoch to create Poisson maps. These Poisson maps utilize the density-estimated 6.4 keV flux instead of the continuum-subtracted values and are used to extract the spectrum of the steady emission.
 
