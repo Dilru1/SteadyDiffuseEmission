@@ -115,7 +115,7 @@ Run *plot_steady_maps.py* to create standard FITS files using these values:
 - `mosa_steady_map_95lim_30arcsec.fits`: Represents the FITS values of the 95% steady estimation for the Sgr B region.
 
 
-![Steady Map](Documentation/Images/graph_decreasing_density.png)
+![Steady Map](Documentation/Images/maps.png)
 *Probability density curves for line emission, represented by dP_total / dμ_line as a function of μ_line, for Pixel_{i=15, j=8} in th*
 
 
