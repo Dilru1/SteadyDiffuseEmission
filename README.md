@@ -34,9 +34,10 @@ export DATAPATH=/user/home/dehiwald/workdir/galactic_center/data
 
 3. **prep_obs_imalist.py** (New script, 2024) : Generates job IDs as epoch lists and image lists from the observation table at the `WORKDIR`.  
 
-   **Output:**  
+   **Output :**  
    - `SgrbXXXX.list` (where XXXX corresponds to epochs from 2000 to 2020)  
    - `ima-SgrbXXXX.list` (counts images for each observation ID in each epoch)
+
 
 4. a). **ssl_launch_esas_job_ima_mosa.sh** (Updated from terrier et al. (2018))  
    b). **ssl_setenv_ima.sh** (Updated from terrier et al. (2018))  
@@ -46,10 +47,7 @@ export DATAPATH=/user/home/dehiwald/workdir/galactic_center/data
    This pipeline processes XMM-Newton observations and generates science products including background counts, exposure, and image count files.
 
 
-5. `make_mosa_sub.sh` : This script is invoked as the second loop in `ssl_launch_esas_job_ima_mosa.sh` to rebin the original count image and zoom into the required region (e.g., Sgr B). 
-
-Example:
-
+5. `make_mosa_sub.sh` : This script is invoked as the second loop in `ssl_launch_esas_job_ima_mosa.sh` to rebin the original count image and zoom into the required region (e.g., Sgr B).
 ```bash
 if [ $name == 'SgrB2' ]; then
     ra=266.86174642
@@ -64,8 +62,12 @@ if [ $name == 'SgrB2' ]; then
 fi
 ```
 
-6. -----WRITE THE CONTINUM SUBTRACTION PART---------
+5. a). **FeEff_cannedRMF.py** (Updated from Terrier et al. (2018))  
+   b). **smosa_eff.py** (Updated from Terrier et al. (2018))  
+   c). **execute.py** (New script, 2024)  
 
+**Output:**  
+   This pipeline processes scientific products (background counts, exposure maps, and image count files) to estimate the 6.4 keV continuum. It then subtracts the continuum to create continuum-subtracted 6.4 keV fluorescence maps. Use **execute.py** to automate the entire pipeline.
 
 
 **Note:**  
