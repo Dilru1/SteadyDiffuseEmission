@@ -34,10 +34,13 @@ remote_dir="/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python"  # r
 
 ### Required Edits for Directory Locations:
 Ensure that the following directories are correctly set in each script:
+
 \```bash
+
 export WORKDIR=/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python
 export DATAPATH=/user/home/dehiwald/workdir/galactic_center/data
 export ANAPATH=/user/home/dehiwald/workdir/galactic_center/analysis
+
 \```
 
 ### Part B: `make_mosa_sub.sh` Script
