@@ -90,30 +90,15 @@ The following scripts have been created to extract the steady emission for each 
 ```markdown
 # Project Directory Structure
 
-
-
-- project-root/
-  - subdirectory1/
-    - file1.txt
-    - file2.txt
-    - subdirectory1-1/
-      - file1-1.txt
-  - subdirectory2/
-    - file3.txt
-    - file4.txt
-  - README.md
-
-
-
-
-1. **main.py**
-2. *data.py*
-3. *density_cal.py*
-4. *intersections.py*
-1. *ccdf.py* 
-6. *pmf.py*
-7. *plots.py*
-8. *plot_steady_maps.py*
+- **main.py**
+  - *data.py*
+  - *density_cal.py*
+  - *intersections.py*
+  - *ccdf.py* 
+  - *pmf.py*
+  - *plots.py*
+  - *pmf.py*
+  - *plot_steady_maps.py*
 
 
  **main.py** processes all 900 pixels in parallel, handling multiple epochs for each pixel. The script first extracts the data for these n epochs. The inputs include the continuum levels and the total number of photons for each epoch corresponding to that pixel. Then, the script calculates the probability density function (p.d.f.) of the 6.4 keV line using Bayesian probability and subsequently computes the complementary cumulative distribution function (CCDF) as the p.d.f. of the steady emission for each epoch. After obtaining each p.d.f., a minimum curve is derived to represent the steady emission across all n epochs. The rejection estimation criteria are also applied, and the 50% and 95% values are recalculated.
