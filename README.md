@@ -3,10 +3,12 @@
 This repository contains scripts for extracting steady diffuse X-ray emission from the Galactic Center.
 
 
-![Text](https://img.shields.io/badge/Custom_Text-Important-red)
+
+### Part 1: Main Pipeline -![Text](https://img.shields.io/badge/ Directory-ScriptsFor6.4keVEmission-red)
 
 
-### Part 1: Main Pipeline - Directory: `ScriptsFor6.4keVEmission`
+
+
 
 
 This directory contains standard science reduction scripts originally developed by Regis Terrier (2018) for processing XMM-Newton data and generating 6.4 keV mosaics for each epoch.
