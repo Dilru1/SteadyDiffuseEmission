@@ -87,6 +87,10 @@ This directory contains statistical methods developed by Maica, Gilles, and Dilr
 
 The following scripts have been created to extract the steady emission for each pixel in the continuum-subtracted 6.4 keV XMM-Newton maps. These scripts and the **maps_eff/** directory can be uploaded to the IPAG cluster for fast execution.
 
+```markdown
+# Project Directory Structure
+
+
 
 - project-root/
   - subdirectory1/
