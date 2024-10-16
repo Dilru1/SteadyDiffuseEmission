@@ -1,56 +1,62 @@
+
 # Steady_DiffuseEmission
-This repository contains the script for extracting steady diffuse X-ray emission from the Galactic Center. 
+This repository contains scripts for extracting steady diffuse X-ray emission from the Galactic Center.
 
+### Part 1: Main Pipeline - Directory: `ScriptsFor6.4keVEmission`
+This directory contains standard science reduction scripts originally developed by Regis Terrier (2018) for processing XMM-Newton data and generating 6.4 keV mosaics for each epoch.
 
-Part 1 : Main pipeline : Directory ScriptsFor6.4keVEmission
-This directory contains the standard science reduction scripts developed by Regis terrier (2018)
-For reduction of XMM newton data to create 6.4 keV mosaics for each epoch. 
+The scripts by Regis Terrier (2018) have been modified for Python 3 and adapted to run on the IPAG computer cluster.
 
-The Regis terrier (2018) scripts are being modified to for python3 and to execute in IPAG computer cluster 
-
-\\bash
-remote_user="dehiwald" #replace user 
+\```bash
+remote_user="dehiwald"  # replace with actual user
 remote_host="ipag-oar.u-ga.fr"
-remote_dir="/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python" #replace local directory 
+remote_dir="/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python"  # replace with the local directory
+\```
 
+### Script List:
+1. **NXSA-Results-1646402050141.txt**  
+   A target observation table for a specified region obtained from the XMM Science Archive.
 
-Script listing 
-1. NXSA-Results-1646402050141.txt #Target observation table within a region obtained from XMM Science archive 
- 
-2.ssl_download.sh #New scrips 2024 ( download all the observations from science argive to the given location in Ipag cluster) 
+2. **ssl_download.sh** (New script, 2024)  
+   Downloads all the observations from the XMM Science Archive to the specified location on the IPAG cluster.
 
-2. prep_obs_imalist.py #New scrips 2024 ( create jobs id epoch list and image list from the table) 
---output 
-SgrbXXXX.list (XXXX is epochs 2000....2020)
-ima-SgrbXXXX.list (count images for each observation id in each epoch)
+3. **prep_obs_imalist.py** (New script, 2024)  
+   Generates job IDs, epoch lists, and image lists from the observation table.  
+   **Output:**  
+   - `SgrbXXXX.list` (where XXXX corresponds to epochs from 2000 to 2020)  
+   - `ima-SgrbXXXX.list` (counts images for each observation ID in each epoch)
 
+4. **ssl_launch_esas_job_ima_mosa.sh** (Updated Regis Terrier script, 2018)  
+   a. **ssl_setenv_ima.sh** (Updated, 2018)  
+   b. **ssl_esas_analysis.sh** (Updated, 2018)  
+   **Output:**  
+   This pipeline processes XMM-Newton observations and generates key science products including background counts, exposure files, and image count files.
 
-3. a) ssl_launch_esas_job_ima_mosa.sh #Regis terrier (2018) (updated) script
-a.1) ssl_setenv_ima.sh #Regis terrier (2018) (updated) script	
-a.2) ssl_esas_analysis.sh #Regis terrier (2018) (updated) script	
--output
-Run Standard pipeline of the XMM newton observations and create main science products bkg count, file, exposure files , image count file 
-
-Edit the main directory locations in each script
+### Required Edits for Directory Locations:
+Ensure that the following directories are correctly set in each script:
+\```bash
 export WORKDIR=/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python
 export DATAPATH=/user/home/dehiwald/workdir/galactic_center/data
 export ANAPATH=/user/home/dehiwald/workdir/galactic_center/analysis
+\```
 
+### Part B: `make_mosa_sub.sh` Script
+This script is invoked as the second loop in `ssl_launch_esas_job_ima_mosa.sh` to rebin the original count image and zoom into the required region (e.g., Sgr B). 
 
-B) make_mosa_sub.sh script is called as the second loop in the ssl_launch_esas_job_ima_mosa.sh to rebin the original count image and to zoomed in to required region ( for example Sgr B) 
-if [ $name=='SgrB2' ];
-then
-	ra=266.86174642
+Example:
+\```bash
+if [ $name == 'SgrB2' ]; then
+    ra=266.86174642
     dec=-28.42722147
     angle=58.72
 
-    if [ $rebin=='30arcsec' ];
-    then
-    	xsize=40
+    if [ $rebin == '30arcsec' ]; then
+        xsize=40
         ysize=40
         pixel=30
     fi
 fi
+\```
 
-
-Note : the code are written to older SAS version , never version required major modifications in the text. However docker SAS is being used in the IPAG cluster uses the older version 
+**Note:**  
+The scripts were initially written for an older version of SAS. Newer versions may require significant modifications. However, the IPAG cluster utilizes a Dockerized version of SAS that uses the older compatible version.
