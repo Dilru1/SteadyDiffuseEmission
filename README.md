@@ -11,7 +11,8 @@ The scripts by Regis Terrier (2018) have been modified for Python 3 and adapted 
 ```bash
 remote_user="dehiwald"  # replace with actual user
 remote_host="ipag-oar.u-ga.fr"
-remote_dir="/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python"  # replace with the local directory
+remote_dir="/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python"  # replace with the local directory 
+```
 
 
 ### Script List:
