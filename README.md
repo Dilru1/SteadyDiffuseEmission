@@ -65,6 +65,11 @@ if [ $name == 'SgrB2' ]; then
     fi
 fi
 ```
+
+6. -----WRITE THE CONTINUM SUBTRACTION PART---------
+
+
+
 **Note:**  
 
 1. If `make_mosa_sub.sh`  does not work within `ssl_launch_esas_job_ima_mosa.sh` then skip the command `source $WORKDIR/ssl_esas_analysis.sh  $obs` in LOOP 1 and rerun the  `ssl_launch_esas_job_ima_mosa.sh`. 
@@ -74,5 +79,20 @@ fi
 
 
 
-### Part 2: Morophology of Steady Emission: - ![Text](https://img.shields.io/badge/Directory-ScriptsForSteadyEmission-blue)
+### Part 2: Morphology of Steady Emission - ![Text](https://img.shields.io/badge/Directory-ScriptsForSteadyEmission-blue)
+
+This directory contains statistical methods developed by Maica, Gilles, and Dilruwan for extracting steady emission using rebinned continuum-subtracted 6.4 keV XMM-Newton flux maps (rebinned to 30 arcseconds, zoomed into Sgr B). The maps can be found in the **maps_eff/** directory, which is the output from **Part 1**.
+
+### Script List (located in the local directory):
+
+1. **ccdf.py**
+2. **data.py**
+3. **density_cal.py**
+4. **intersections.py**
+5. **main.py**
+6. **pmf.py**
+7. **plots.py**
+8. **plot_steady_maps.py**
+
+
 
