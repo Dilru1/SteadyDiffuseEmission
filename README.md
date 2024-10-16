@@ -67,7 +67,12 @@ fi
 ```
 **Note:**  
 
-1. If `make_mosa_sub.sh`  didn't worked inside `ssl_launch_esas_job_ima_mosa.sh` then skip the `source $WORKDIR/ssl_esas_analysis.sh  $obs` in LOOP 1 and rerun the  `ssl_launch_esas_job_ima_mosa.sh`. 
+1. If `make_mosa_sub.sh`  does not work within `ssl_launch_esas_job_ima_mosa.sh` then skip the command `source $WORKDIR/ssl_esas_analysis.sh  $obs` in LOOP 1 and rerun the  `ssl_launch_esas_job_ima_mosa.sh`. 
 
 
-2. The scripts were initially written for an older version of SAS. Newer versions may require significant modifications. However, the IPAG cluster utilizes a Dockerized version of SAS that uses the older compatible version.
+2. The scripts were initially written for an older version of SAS (19). Newer versions (21+) require significant modifications. However, the IPAG cluster uses a Dockerized version of SAS that uses the SAS19 compatible version.
+
+
+
+### Part 2: Morophology of Steady Emission: - ![Text](https://img.shields.io/badge/Directory-ScriptsForSteadyEmission-blue)
+
