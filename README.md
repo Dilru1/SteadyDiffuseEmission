@@ -99,12 +99,24 @@ The following scripts have been created to extract the steady emission for each 
   - plots.py
   - pmf.py
   - plot_steady_maps.py
-
+  - Poisson_Maps.py
 ```
 
  **main.py** processes all 900 pixels in parallel. It handles n epochs for each pixel. The script first extracts the data for these n epochs. This inputs include the continuum levels and the total number of photons for each epoch corresponding to that pixel. Then, the script calculates the probability density function (p.d.f.) of the 6.4 keV line using Bayesian probability and subsequently computes the complementary cumulative distribution function (CCDF) as the p.d.f. of the steady emission for each epoch. After obtaining each p.d.f., a minimum curve is obtained to represent the p.d.f of steady emission across all n epochs. The rejection estimation criteria are also applied, and the 50% and 95% values are obtained as estimation of the steady emission.
 
-**plot_steady_maps.py** processes all 900 pixels in each epoch to create Poisson maps. These Poisson maps utilize the density-estimated 6.4 keV flux instead of the continuum-subtracted values and are used to extract the spectrum of the steady emission.
+**Output:**  
+This pipeline processes all 900 pixels and creates two text files: 
+- `filtered_intersections.txt`: Contains array-like values for the 50% and 95% estimations after rejection.
+- `unfiltered_intersections.txt`: Contains array-like values for the 50% and 95% estimations before rejection.
+
+Run *plot_steady_maps.py* to create standard FITS files using these values:
+
+- `mosa_steady_map_50lim_30arcsec.fits`: Represents the FITS values of the 50% steady estimation for the Sgr B region.
+- `mosa_steady_map_95lim_30arcsec.fits`: Represents the FITS values of the 95% steady estimation for the Sgr B region.
+
+
+
+**Poisson_Maps.py** processes all 900 pixels in each epoch to create Poisson maps. These Poisson maps utilize the density-estimated 6.4 keV flux instead of the continuum-subtracted values and are used to extract the spectrum of the steady emission.
 
 **Note:**
 
