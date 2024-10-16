@@ -3,10 +3,7 @@
 This repository contains scripts for extracting steady diffuse X-ray emission from the Galactic Center.
 
 
-<span style="color:red">
-Text content
-</span>
-
+![Text](https://img.shields.io/badge/Custom_Text-Important-red)
 
 
 ### Part 1: Main Pipeline - Directory: `ScriptsFor6.4keVEmission`
