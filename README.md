@@ -153,8 +153,6 @@ In line:350 in **main.py** to generate plots. This function will plot the probab
 
 
 
-
-
 ### Part 3: Spectroscopy of Steady Emission - ![Text](https://img.shields.io/badge/Directory-ScriptsForSteadySpectran-green)
 
 
