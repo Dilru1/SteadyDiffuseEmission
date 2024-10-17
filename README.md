@@ -233,18 +233,17 @@ ScriptsForSteadySpectra/
 
 ### Script List:
 
-Following script listing are presented based on the order of their execution. 
+The following scripts are listed in the order they should be executed:
 
-1. 
+1.  
 **Output:**  
-Creates the mask files as count_map_2000.fits,count_map_2004.fits ... and save them into relevant Observation locations in the ScriptsForSteadySpectra/SERVER_FILES/OBSID directory. For example count_map_2000.fits will be saved on the ScriptsForSteadySpectra/SERVER_FILES/0112971501 directory
+Generates mask files (e.g., `count_map_2000.fits`, `count_map_2004.fits`) and stores them in the corresponding observation directories within `ScriptsForSteadySpectra/SERVER_FILES/OBSID`. For instance, `count_map_2000.fits` will be saved in the `ScriptsForSteadySpectra/SERVER_FILES/0112971501` directory.
 
+2. **ScriptsForSteadySpectra/1_create_region.py**  
+**Output:**  
+Produces a DS9 region file (**reg_row_pix.reg**) for the mask files and saves it in the same `SERVER_FILES/` location. This file identifies pixels or regions excluded from spectral extraction. The region data is given in image coordinates.
 
-2. ScriptsForSteadySpectra/1_create_region.py.  
-**Output:** 
-Creates the DS9 region file  (**reg_row_pix.reg**) for above mask files and save the same locations in SERVER_FILES/. This region list includes the pixels ( or region) which is excluded in the spectral extraction.  This region file is presents in image coordinates.
-
-3. Create manual region file (**box_mask_sky.reg**) which include the information of the region that we want to extract steady spectra. For example if we want to extract the steady spectra from Sgr B region, **box_mask_sky.reg** will look like following in the pixel coordinates.
+3. **Create a manual region file** (`box_mask_sky.reg`) that specifies the area from which to extract steady spectra. For example, if extracting from the Sgr B region, the file content in pixel coordinates would look like this:
 
 ```DS9
 # Region file format: DS9 version 4.1
@@ -253,45 +252,38 @@ image
 box(15.5,15.5,30.0,30.0,0.0)
 ```
 
-4. Scripts inside each subdirectories in ScriptsForSteadySpectra/SERVER_FILES/XXXXXXX/
- 4.1 all_new_command.sh #main script to run spectral extraction of the steady emission compatible pixels for given observation ID. 
-First 
-4.2 1_create_region.py #create region files in sky coordinates using the **reg_row_pix.reg** and **box_mask_sky.reg** file.
- 4.2 5_coordinateconv2.py #convert region files in sky cooridinates to the XMM-Newton detector coodinates 
- 4.3 createbintable_edit.py #create FITS table of the region files to exclude from spectral extraction (for individual pixels)
- 4.3 createbintable_bigtable.py #create FITS table of the region files to exclude from spectral extraction (for larger region)
- 
+### Script List:
 
+4. **Scripts located within each subdirectory** in `ScriptsForSteadySpectra/SERVER_FILES/XXXXXXX/`:
+   4.1 **`all_new_command.sh`**: The primary script that initiates the spectral extraction process for pixels exhibiting steady emission, specific to the given observation ID.  
+   4.2 **`1_create_region.py`**: Generates region files in sky coordinates by utilizing the `reg_row_pix.reg` and `box_mask_sky.reg` files.  
+   4.3 **`5_coordinateconv2.py`**: Converts the generated region files from sky coordinates to XMM-Newton detector coordinates.  
+   4.4 **`createbintable_edit.py`**: Creates a FITS table of the individual pixels to be excluded from the spectral extraction process.  
+   4.5 **`createbintable_bigtable.py`**: Produces a FITS table for larger regions to be excluded from spectral extraction.
 
-### Steps to execute:
-Local directory 
- 1. In your local directory run  ScriptsForSteadySpectra/1_create_countmaps.py  
- 2. Run ScriptsForSteadySpectra/1_create_region.py.  
- 3. Modify **box_mask_sky.reg** based on the region (Sir B, G0.66 and Sgr B2)
-4. Make sure  ScriptsForSteadySpectra/SERVER_FILES/XXXXXX/ has following files 
-	all_new_command.sh, python_scripts/1_create_region.py, python_scripts/1_create_region.py, python_scripts/createbintable_edit.py
+---
 
-python_scripts/createbintable_bigtable.py
+### Steps to Execute:
 
-(Check the header locations)
-5.  Use SERVER_FILES/upload.sh to upload all the necessary script to remote location in IPAG cluster 
+**Local Directory:**  
+1. Run `ScriptsForSteadySpectra/1_create_countmaps.py` from your local directory.  
+2. Run `ScriptsForSteadySpectra/1_create_region.py`.  
+3. Modify the `box_mask_sky.reg` file based on the region of interest (e.g., Sir B, G0.66, or Sgr B2).  
+4. Ensure the directory `ScriptsForSteadySpectra/SERVER_FILES/XXXXXX/` contains the following files:  
+   - `all_new_command.sh`  
+   - `python_scripts/1_create_region.py`  
+   - `python_scripts/5_coordinateconv2.py`  
+   - `python_scripts/createbintable_edit.py`  
+   - `python_scripts/createbintable_bigtable.py`  
+   *(Make sure to verify the header locations in each script.)*
+
+5. Use `SERVER_FILES/upload.sh` to upload all necessary scripts to the remote IPAG cluster.
 
 **Note:**  
+- The main scripts only need to be uploaded once. For each new spectral extraction, you only need to modify `box_mask_sky.reg` to adjust the extraction region, and update `reg_row_pix.reg` based on the epoch, whether to include single pixels, and whether to apply the 95% or 50% emission boundaries.
 
-1. All the main scripts needs to be uploaded one time. Each time you execute new spectral extraction only change **box_mask_sky.reg** to change the 
-Extraction region. and the *reg_row_pix.reg* based on the epoch, whether single pixel included or not, 95% or 50% etc. 
+---
 
-
-
-Remote directory: 
-1. Make sure Directory Structure are okay. 
-2. Make sure directory Structure are
-
-
-
-
-
-
- 
-
-
+**Remote Directory:**  
+1. Ensure that the directory structure is correctly organized.  
+2. Verify that the directory structure adheres to the required format.
