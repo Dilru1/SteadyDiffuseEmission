@@ -119,7 +119,7 @@ Run *plot_steady_maps.py* to create standard FITS files using these values:
 *Estimation of the Upper Limit for Steady X-ray Emission from the Sgr B Molecular Cloud: 50% estimation (left) and 95% estimation (right)*
 
 
-3. **Poisson_Maps.py** processes all 900 pixels in each epoch to create Poisson maps. These Poisson maps utilize the density-estimated 6.4 keV flux instead of the continuum-subtracted values and are used to extract the spectrum of the steady emission.
+3. **Poisson_Maps.py** processes all 900 pixels in each epoch to create Poisson maps. These Poisson maps replaces the continuum-subtracted 6.4 keV line by the density-estimated 6.4 keV flux. These Poisson maps are are used to extract the spectrum of the steady emission in **Part 3:**. 
 
 **Note:**
 
@@ -141,13 +141,14 @@ Run *plot_steady_maps.py* to create standard FITS files using these values:
     plot_result(index, years, filtered_years, data, x_common, interpolated_y_values, x_common_filtered, interpolated_y_values_filtered, old_intersections, new_intersections)
     ```
 
-In line:350 in **main.py** for plots. This function will plot the probability density of the 6.4 keV line, the steady emission, the steady emission after applying the rejection criteria, and the Poisson light curve for a single pixel.
+In line:350 in **main.py** to generate plots. This function will plot the probability density of the 6.4 keV line, the steady emission, the steady emission after applying the rejection criteria, and the Poisson light curve for a single pixel.
 
 
 ![Probability Density Curves](Documentation/Images/graph_rand_density.png)
 *Probability density curves for line emission, represented by dP_total / dμ_line as a function of μ_line, for Pixel_{i=15, j=8} in the data cube (see Figure \ref{fig:datacube}) on the left. The probability density curves for the steady emission, or dP_steady / dμ_steady as a function of μ_steady, are represented as the CCDF of the line on the right. The combined density of the steady emission is plotted in black, representing the minimum of each density curve.*
 
 
+3. Refer to [README_Simulations.md](Documentation/README_Simulations.md) for code explanation on estimating steady emission using **simulated data**.
 
 
 
