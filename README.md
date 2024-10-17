@@ -166,13 +166,18 @@ The following scripts have been created to extract the steady spectra for pixels
 
 ```bash
 ├── galactic_center/
-│   ├── analysis/                # Main analysis scripts and tools
-│   │   ├── subdir1/             # [Description of what subdir1 contains]
-│   │   ├── subdir2/             # [Description of what subdir2 contains]
-│   │   ├── subdir3/             # [Description of what subdir3 contains]
-│   │   ├── subdir4/             # [Description of what subdir4 contains]
-│   │   ├── subdir5/             # [Description of what subdir5 contains]
-│   │   └── subdir6/             # [Description of what subdir6 contains]
+│   ├── analysis/                # Main analysis folder
+│   │   ├── 0112970301/             # [Description of what subdir1 contains]
+│   │   ├── 0112971501/             # [Description of what subdir2 contains]
+│   │   ├── 0203930101/             # [Description of what subdir3 contains]
+│   │   ├── 0694640601/             # [Description of what subdir4 contains]
+│   │   ├── 0694641301/             # [Description of what subdir5 contains]
+│   │   ├── 0112970301/             # [Description of what subdir1 contains]
+│   │   ├── 0802410101/             # [Description of what subdir2 contains]
+│   │   ├── 0862471101/             # [Description of what subdir3 contains]
+│   │   ├── 0862471001/             # [Description of what subdir4 contains]
+│   │   ├── *spectra_sub/*             # [Description of what subdir5 contains]
+│   │   └── mosa_ima/            # [Description of what subdir6 contains]
 │   ├── data/                    # Processed data and database-related files
 │   ├── XMM_scripts_python/      # Python scripts for XMM-Newton data analysis
 │   ├── docs/                    # Documentation for the project
