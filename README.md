@@ -299,7 +299,7 @@ oarsub -p interrupt=0  ./run_0694640601.oar -l walltime=50:00:00  --name 069464>
 oarsub -p interrupt=0  ./run_0694641301.oar -l walltime=50:00:00   --name 06946>
 oarsub -p interrupt=0  ./run_0802410101.oar -l walltime=100:00:00  --name 08024>
 oarsub -p interrupt=0  ./run_0862471101.oar -l walltime=100:00:00  --name 08624>
-```
+```bash
 
 Each run_XX.oar script is looks like follows : 
 ```bash
@@ -338,8 +338,8 @@ oarsub -p interrupt=0  ./run_0694640601_2.oar -l walltime=100:00:00  --name 0694
 oarsub -p interrupt=0  ./run_0694641301_2.oar -l walltime=100:00:00   --name 0694641301 --notify mail:dilrushanaka@gmai>
 oarsub -p interrupt=0  ./run_0802410101_2.oar  -l walltime=100:00:00  --name 0802410101  --notify mail:dilrushanaka@gma>
 oarsub -p interrupt=0  ./run_0862471101_2.oar  -l walltime=100:00:00  --name 0862471101  --notify mail:dilrushanaka@gma>
-```
 
+```
 
 
 Each run_XX_2.oar script is looks like follows : 
