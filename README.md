@@ -216,12 +216,11 @@ On your local machine, the `ScriptsForSteadySpectra` directory contains all the 
 
 ```bash
 ScriptsForSteadySpectra/
-├── 1_create_countmaps.py               # Script to generate mask FITS files
-├── 1_create_region_new_subregion.py    # Script to define regions incompatible with steady emission
-├── 1_create_region.py                  # Main script for creating regions
+├── 1_create_countmaps.py               # Script to generate mask FITS files ( For each epoch white pixel represents the steady compatible pixels)
+├── 1_create_region.py                  # Script to define regions incompatible with steady emission ( Regions for black pixels) 
 │   └── coordinateconv_horiz.py         # Subscript for coordinate conversion (used by 1_create_region.py)
-├── count_files/                        # Directory to store count files
-└── SERVER_FILES/                       # Directory containing all scripts for uploading to the IPAG directory
+├── count_files/                        # Directory to store mask FITS files 
+└── SERVER_FILES/                       # Directory containing all scripts which needs to upload to the IPAG directory
     ├── 0112971501/                     # Scripts for 0112971501
     ├── 0203930101/                     # Scripts for 0203930101
     ├── 0694640601/                     # Scripts for 0694640601
@@ -235,15 +234,15 @@ ScriptsForSteadySpectra/
 
 The following scripts are listed in the order they should be executed:
 
-1.  
+1.**ScriptsForSteadySpectra/1_create_countmaps.py**  
 **Output:**  
-Generates mask files (e.g., `count_map_2000.fits`, `count_map_2004.fits`) and stores them in the corresponding observation directories within `ScriptsForSteadySpectra/SERVER_FILES/OBSID`. For instance, `count_map_2000.fits` will be saved in the `ScriptsForSteadySpectra/SERVER_FILES/0112971501` directory.
+Generates mask files (e.g., `count_map_2000.fits`, `count_map_2004.fits`....) and stores them in the corresponding directories within `ScriptsForSteadySpectra/SERVER_FILES/OBSID`. For instance, `count_map_2000.fits` will be saved in the `ScriptsForSteadySpectra/SERVER_FILES/0112971501` directory.
 
 2. **ScriptsForSteadySpectra/1_create_region.py**  
 **Output:**  
 Produces a DS9 region file (**reg_row_pix.reg**) for the mask files and saves it in the same `SERVER_FILES/` location. This file identifies pixels or regions excluded from spectral extraction. The region data is given in image coordinates.
 
-3. **Create a manual region file** (`box_mask_sky.reg`) that specifies the area from which to extract steady spectra. For example, if extracting from the Sgr B region, the file content in pixel coordinates would look like this:
+3. **Create a manual region file** (`box_mask_sky.reg`) that specifies the region to extract steady spectra. For example, if extracting from the Sgr B region, the file content in pixel coordinates would look like this:
 
 ```bash
 # Region file format: DS9 version 4.1
@@ -252,14 +251,27 @@ image
 box(15.5,15.5,30.0,30.0,0.0)
 ```
 
+
 ### Script List:
 
 4. **Scripts located within each subdirectory** in `ScriptsForSteadySpectra/SERVER_FILES/XXXXXXX/`:
-   4.1 **`all_new_command.sh`**: The primary script that initiates the spectral extraction process for pixels exhibiting steady emission, specific to the given observation ID.  
-   4.2 **`1_create_region.py`**: Generates region files in sky coordinates by utilizing the `reg_row_pix.reg` and `box_mask_sky.reg` files.  
+   4.1 **`all_new_command.sh`**: The primary script that initiates the spectral extraction process for pixels showing steady emission, specific to the given observation.  
+   4.2 **`1_create_region.py`**: Generates region files in sky coordinates by using the `reg_row_pix.reg` and `box_mask_sky.reg` files.  
    4.3 **`5_coordinateconv2.py`**: Converts the generated region files from sky coordinates to XMM-Newton detector coordinates.  
    4.4 **`createbintable_edit.py`**: Creates a FITS table of the individual pixels to be excluded from the spectral extraction process.  
    4.5 **`createbintable_bigtable.py`**: Produces a FITS table for larger regions to be excluded from spectral extraction.
+
+**Note:**  
+- The main scripts only need to be uploaded once. For each new spectral extraction, you only need to modify `box_mask_sky.reg` to adjust the extraction region, and update `reg_row_pix.reg` based on the epoch, whether to include single pixels, and whether to apply the 95% or 50% emission boundaries.
+
+-ESAY HACK!! :  I have downloaded the spectra_sub/ directory (located at ScriptsForSteadySpectra/SERVER_FILES/spectra_sub/) from IPAG cluster. One can upload this directory to remote location (ANAPATH/spectra_sub) to process fast. In that case only  mask files and region files needs to be uploaded in each times. 
+
+
+
+
+
+
+
 
 ---
 
@@ -277,7 +289,10 @@ box(15.5,15.5,30.0,30.0,0.0)
    - `python_scripts/createbintable_bigtable.py`  
    *(Make sure to verify the header locations in each script.)*
 
-5. Use `SERVER_FILES/upload.sh` to upload all necessary scripts to the remote IPAG cluster.
+OR simply upload the criptsForSteadySpectra/SERVER_FILES/spectra_sub/ to the remote ANAPATH/spectra_sub (Recommended step) 
+
+Use `SERVER_FILES/upload.sh` to upload all necessary scripts to the remote IPAG cluster.
+
 
 **Note:**  
 - The main scripts only need to be uploaded once. For each new spectral extraction, you only need to modify `box_mask_sky.reg` to adjust the extraction region, and update `reg_row_pix.reg` based on the epoch, whether to include single pixels, and whether to apply the 95% or 50% emission boundaries.
@@ -287,18 +302,20 @@ box(15.5,15.5,30.0,30.0,0.0)
 **Remote Directory:**  
 1. Ensure that the directory structure is correctly organized.  
 2. Verify that the all the scripts and subdirectories are presence in directory strucutee.
-3. I use oarsub script to run all the scripts. First run the master_step1.bash to create the fits table for region extraction. 
+3. I use oarsub script to run all the scripts. First run the master_step1.bash (locate root directory and modify the path) to create the fits table for region extraction. 
 
 
-```bash
+```bash                                                       
 #!/bin/bash
 
-oarsub -p interrupt=0  ./run_0112971501.oar -l walltime=50:00:00  --name 011297>
-oarsub -p interrupt=0  ./run_0203930101.oar -l walltime=50:00:00   --name 02039>
-oarsub -p interrupt=0  ./run_0694640601.oar -l walltime=50:00:00  --name 069464>
-oarsub -p interrupt=0  ./run_0694641301.oar -l walltime=50:00:00   --name 06946>
-oarsub -p interrupt=0  ./run_0802410101.oar -l walltime=100:00:00  --name 08024>
-oarsub -p interrupt=0  ./run_0862471101.oar -l walltime=100:00:00  --name 08624>
+
+oarsub -p interrupt=0  ./run_0112971501.oar -l walltime=50:00:00  --name 0112971501_g0.66_1  --notify mail:dilrushanaka@gmail.com
+oarsub -p interrupt=0  ./run_0203930101.oar -l walltime=50:00:00   --name 0203930101_g0.66_1 --notify mail:dilrushanaka@gmail.com
+oarsub -p interrupt=0  ./run_0694640601.oar -l walltime=50:00:00  --name 0694640601_g0.66_1  --notify mail:dilrushanaka@gmail.com
+oarsub -p interrupt=0  ./run_0694641301.oar -l walltime=50:00:00   --name 0694641301_g0.66_1 --notify mail:dilrushanaka@gmail.com
+oarsub -p interrupt=0  ./run_0802410101.oar -l walltime=100:00:00  --name 0802410101_g0.66_1   --notify mail:dilrushanaka@gmail.com
+oarsub -p interrupt=0  ./run_0862471101.oar -l walltime=100:00:00  --name 0862471101_sgrb2_1   --notify mail:dilrushanaka@gmail.com
+
 ```bash
 
 Each run_XX.oar script is looks like follows : 
@@ -324,8 +341,7 @@ echo "Done"
 
 ```
 
-
-3. After all jobs finished run master_step2.bash to extract the spectra 
+3. Once all jobs are complete, run `master_step2.bash` to extract the spectra. This process is divided because when we run `master_step1.bash` (which calls `all_new_command.sh`), the pipeline first creates the region FITS table for spectral extraction. If different spectra need to be extracted later, we only need to replace the region FITS table accordingly. Since the spectral extraction process is time-consuming, the `all_new_command.sh` script is split into two parts: the first part creates the region FITS table (if necessary, this only needs to be done once for the main pipeline), and the second part performs the spectral extraction by running `run_all_2.sh`.
 
 
 
@@ -365,4 +381,6 @@ singularity exec -B /user/home/dehiwald:/user/home/dehiwald /data/container/sas_
 echo "Done"
 
 ```
+**Note:**  
+- For spectral extraction, use the `mos1_commands.sh`, `mos2_commands.sh`, and `pn_commands.sh` scripts. These scripts are modified versions of the ESAS procedure, designed to exclude specific regions from the analysis, such as pixels that are incompatible with steady emission.
 
