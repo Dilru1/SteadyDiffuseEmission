@@ -286,4 +286,13 @@ box(15.5,15.5,30.0,30.0,0.0)
 
 **Remote Directory:**  
 1. Ensure that the directory structure is correctly organized.  
-2. Verify that the directory structure adheres to the required format.
+2. Verify that the all the scripts and subdirectories are presence in directory strucutee.
+3. I use oarsub script to run all the scripts.
+
+
+
+
+
+
+
+
