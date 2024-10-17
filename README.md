@@ -151,8 +151,29 @@ In line:350 in **main.py** to generate plots. This function will plot the probab
 3. Refer to [README_Simulations.md](Documentation/README_Simulations.md) for code explanation on estimating steady emission using **simulated data**.
 
 
-
-
 ### Part 3: Spectroscopy of Steady Emission - ![Text](https://img.shields.io/badge/Directory-ScriptsForSteadySpectran-green)
 
+The pipeline for spectra extraction is not automated. As sgr B region used 6 observations I have create 6 directories with the neccesiory script to process spectral extraction .However when number of observations  get larger this process has to be automated 
 
+
+### Script List (located in the local/IPAG directory):
+
+The following scripts have been created to extract the steady spectra for pixels compatible with steady emission. These scripts and the **maps_eff/** directory can be uploaded to the IPAG cluster for *parallel* execution.
+
+
+
+## Directory Structure
+
+```bash
+├── galactic_center/
+│   ├── analysis/                # Main analysis scripts and tools
+│   │   ├── subdir1/             # [Description of what subdir1 contains]
+│   │   ├── subdir2/             # [Description of what subdir2 contains]
+│   │   ├── subdir3/             # [Description of what subdir3 contains]
+│   │   ├── subdir4/             # [Description of what subdir4 contains]
+│   │   ├── subdir5/             # [Description of what subdir5 contains]
+│   │   └── subdir6/             # [Description of what subdir6 contains]
+│   ├── data/                    # Processed data and database-related files
+│   ├── XMM_scripts_python/      # Python scripts for XMM-Newton data analysis
+│   ├── docs/                    # Documentation for the project
+│   └── README.md                # Project documentation and overview
