@@ -245,12 +245,12 @@ Produces a DS9 region file (**reg_row_pix.reg**) for the mask files and saves it
 
 3. **Create a manual region file** (`box_mask_sky.reg`) that specifies the area from which to extract steady spectra. For example, if extracting from the Sgr B region, the file content in pixel coordinates would look like this:
 
-```DS9
+```bash
 # Region file format: DS9 version 4.1
 global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
 image
 box(15.5,15.5,30.0,30.0,0.0)
-```DS9
+```
 
 ### Script List:
 
