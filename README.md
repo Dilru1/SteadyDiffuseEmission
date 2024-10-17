@@ -151,50 +151,147 @@ In line:350 in **main.py** to generate plots. This function will plot the probab
 3. Refer to [README_Simulations.md](Documentation/README_Simulations.md) for code explanation on estimating steady emission using **simulated data**.
 
 
+
 ### Part 3: Spectroscopy of Steady Emission - ![Text](https://img.shields.io/badge/Directory-ScriptsForSteadySpectran-green)
 
-The pipeline for spectra extraction is not automated. As sgr B region used 6 observations I have create 6 directories with the neccesiory script to process spectral extraction .However when number of observations  get larger this process has to be automated 
+The pipeline for spectral extraction is currently not automated. Since the Sgr B region uses 6 observations, I have created 6 separate directories, each containing the necessary scripts for processing spectral extraction. However, as the number of observations increases, this process will need to be automated. The required scripts are first prepared on the local machine and then uploaded to the remote directory in IPAG cluster for execution. Therefore, the proper organization and location of the scripts are crucial.
 
 
-### Script List (located in the local/IPAG directory):
+### Directory List (located in the IPAG directory):
 
-The following scripts have been created to extract the steady spectra for pixels compatible with steady emission. These scripts and the **maps_eff/** directory can be uploaded to the IPAG cluster for *parallel* execution.
+The directory structure has been set up on the IPAG cluster to extract steady-state spectra for pixels corresponding to steady emission.
+
+Before proceeding with spectral extraction, ensure that the following directories are updated accordingly:
 
 
+```bash
+WORKDIR=/user/home/dehiwald/workdir/galactic_center/XMM_scripts_python
+DATAPATH=/user/home/dehiwald/workdir/galactic_center/data
+ANAPATH=/user/home/dehiwald/workdir/galactic_center/analysis
+spectra_sub=/user/home/dehiwald/workdir/galactic_center/analysis/spectra_sub
+```
+
+
+### Directory Structure in Remote Server
+
+```bash
+├── galactic_center/
+│   ├── analysis/                   # Main analysis folder
+│   │   ├── 0112970301/             # [PART1 Analysis of XMM-Observation ]
+│   │   ├── 0112971501/             # [PART1 Analysis of XMM-Observation ]
+│   │   ├── 0203930101/             # [PART1 Analysis of XMM-Observation ]
+│   │   ├── 0694640601/             # [PART1 Analysis of XMM-Observation ]
+│   │   ├── 0694641301/             # [PART1 Analysis of XMM-Observation ]
+│   │   ├── 0112970301/             # [PART1 Analysis of XMM-Observation ]
+│   │   ├── 0802410101/             # [PART1 Analysis of XMM-Observation ]
+│   │   ├── 0862471101/             # [PART1 Analysis of XMM-Observation ]
+│   │   ├── 0862471001/             # [PART1 Analysis of XMM-Observation ]
+│   │   ├── spectra_sub/            # [Directory for spectral extraction]
+│   │   └── mosa_ima/               # [Directory for mosaic creation]
+│   ├── data/                       # Data (ODF) of all the observations 
+│   ├── XMM_scripts_python/         # Python scripts for XMM-Newton data analysis (PART1)
+
+```
+
+#### Directory Structure for Spectral Extraction (spectra_sub/)
+
+
+```bash
+├── analysis/
+│   ├── spectra_sub/                # Main analysis folder `ANAPATH`
+│   │   ├── 0112971501/             # [Scripts for extraction of steady spectra for OBSID: 0112971501 ]
+│   │   ├── 0203930101/             # [Scripts for extraction of steady spectra for OBSID: 0203930101 ]
+│   │   ├── 0694640601/             # [Scripts for extraction of steady spectra for OBSID: 0694640601 ]
+│   │   ├── 0694641301/             # [Scripts for extraction of steady spectra for OBSID: 0694641301 ]
+│   │   ├── 0802410101/             # [Scripts for extraction of steady spectra for OBSID: 0802410101 ]
+│   │   ├── 0862471101/             # [Scripts for extraction of steady spectra for OBSID: 0862471101 ]
+```
+
+
+### Directory Structure in Local Machine
+
+On your local machine, the `ScriptsForSteadySpectra` directory contains all the necessary scripts for spectral extraction that need to be uploaded to the remote IPAG directory. To streamline the process, use the `update.sh` script to upload everything at once, provided that the correct file paths and locations are specified both local machine and remote server.
 
 ## Directory Structure
 
 ```bash
-├── galactic_center/
-│   ├── analysis/                # Main analysis folder
-│   │   ├── 0112970301/             # [Description of what subdir1 contains]
-│   │   ├── 0112971501/             # [Description of what subdir2 contains]
-│   │   ├── 0203930101/             # [Description of what subdir3 contains]
-│   │   ├── 0694640601/             # [Description of what subdir4 contains]
-│   │   ├── 0694641301/             # [Description of what subdir5 contains]
-│   │   ├── 0112970301/             # [Description of what subdir1 contains]
-│   │   ├── 0802410101/             # [Description of what subdir2 contains]
-│   │   ├── 0862471101/             # [Description of what subdir3 contains]
-│   │   ├── 0862471001/             # [Description of what subdir4 contains]
-│   │   ├── *spectra_sub/*             # [Description of what subdir5 contains]
-│   │   └── mosa_ima/            # [Description of what subdir6 contains]
-│   ├── data/                    # Processed data and database-related files
-│   ├── XMM_scripts_python/      # Python scripts for XMM-Newton data analysis
-│   ├── docs/                    # Documentation for the project
-│   └── README.md                # Project documentation and overview
+ScriptsForSteadySpectra/
+├── 1_create_countmaps.py               # Script to generate mask FITS files
+├── 1_create_region_new_subregion.py    # Script to define regions incompatible with steady emission
+├── 1_create_region.py                  # Main script for creating regions
+│   └── coordinateconv_horiz.py         # Subscript for coordinate conversion (used by 1_create_region.py)
+├── count_files/                        # Directory to store count files
+└── SERVER_FILES/                       # Directory containing all scripts for uploading to the IPAG directory
+    ├── 0112971501/                     # Scripts for 0112971501
+    ├── 0203930101/                     # Scripts for 0203930101
+    ├── 0694640601/                     # Scripts for 0694640601
+    ├── 0694641301/                     # Scripts for 0694641301
+    ├── 0802410101/                     # Scripts for 0802410101
+    └── 0862471101/                     # Scripts for 0862471101
+    └── upload.sh                       # Script to upload SERVER_FILES to the remote location
 
+
+### Script List:
+
+Following script listing are presented based on the order of their execution. 
+
+1. 
+**Output:**  
+Creates the mask files as count_map_2000.fits,count_map_2004.fits ... and save them into relevant Observation locations in the ScriptsForSteadySpectra/SERVER_FILES/OBSID directory. For example count_map_2000.fits will be saved on the ScriptsForSteadySpectra/SERVER_FILES/0112971501 directory
+
+
+2. ScriptsForSteadySpectra/1_create_region.py.  
+**Output:** 
+Creates the DS9 region file  (**reg_row_pix.reg**) for above mask files and save the same locations in SERVER_FILES/. This region list includes the pixels ( or region) which is excluded in the spectral extraction.  This region file is presents in image coordinates.
+
+3. Create manual region file (**box_mask_sky.reg**) which include the information of the region that we want to extract steady spectra. For example if we want to extract the steady spectra from Sgr B region, **box_mask_sky.reg** will look like following in the pixel coordinates.
+
+```DS9
+# Region file format: DS9 version 4.1
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+image
+box(15.5,15.5,30.0,30.0,0.0)
 ```
 
-## Directory Structure for spectra 
+4. Scripts inside each subdirectories in ScriptsForSteadySpectra/SERVER_FILES/XXXXXXX/
+ 4.1 all_new_command.sh #main script to run spectral extraction of the steady emission compatible pixels for given observation ID. 
+First 
+4.2 1_create_region.py #create region files in sky coordinates using the **reg_row_pix.reg** and **box_mask_sky.reg** file.
+ 4.2 5_coordinateconv2.py #convert region files in sky cooridinates to the XMM-Newton detector coodinates 
+ 4.3 createbintable_edit.py #create FITS table of the region files to exclude from spectral extraction (for individual pixels)
+ 4.3 createbintable_bigtable.py #create FITS table of the region files to exclude from spectral extraction (for larger region)
+ 
 
-```bash
-├── analysis/
-│   ├── spectra_sub/                # Main analysis folder
-│   │   ├── 0112971501/             # [Description of what subdir1 contains]
-│   │   ├── 0203930101/             # [Description of what subdir2 contains]
-│   │   ├── 0694640601/             # [Description of what subdir3 contains]
-│   │   ├── 0694641301/             # [Description of what subdir4 contains]
-│   │   ├── 0694641301/             # [Description of what subdir5 contains]
-│   │   ├── 0802410101/             # [Description of what subdir1 contains]
-│   │   ├── 0862471101/             # [Description of what subdir2 contains]
-```
+
+### Steps to execute:
+Local directory 
+ 1. In your local directory run  ScriptsForSteadySpectra/1_create_countmaps.py  
+ 2. Run ScriptsForSteadySpectra/1_create_region.py.  
+ 3. Modify **box_mask_sky.reg** based on the region (Sir B, G0.66 and Sgr B2)
+4. Make sure  ScriptsForSteadySpectra/SERVER_FILES/XXXXXX/ has following files 
+	all_new_command.sh, python_scripts/1_create_region.py, python_scripts/1_create_region.py, python_scripts/createbintable_edit.py
+
+python_scripts/createbintable_bigtable.py
+
+(Check the header locations)
+5.  Use SERVER_FILES/upload.sh to upload all the necessary script to remote location in IPAG cluster 
+
+**Note:**  
+
+1. All the main scripts needs to be uploaded one time. Each time you execute new spectral extraction only change **box_mask_sky.reg** to change the 
+Extraction region. and the *reg_row_pix.reg* based on the epoch, whether single pixel included or not, 95% or 50% etc. 
+
+
+
+Remote directory: 
+1. Make sure Directory Structure are okay. 
+2. Make sure directory Structure are
+
+
+
+
+
+
+ 
+
+
