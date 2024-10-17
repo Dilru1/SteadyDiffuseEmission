@@ -287,12 +287,82 @@ box(15.5,15.5,30.0,30.0,0.0)
 **Remote Directory:**  
 1. Ensure that the directory structure is correctly organized.  
 2. Verify that the all the scripts and subdirectories are presence in directory strucutee.
-3. I use oarsub script to run all the scripts.
+3. I use oarsub script to run all the scripts. First run the master_step1.bash to create the fits table for region extraction. 
+
+
+```bash
+#!/bin/bash
+
+oarsub -p interrupt=0  ./run_0112971501.oar -l walltime=50:00:00  --name 011297>
+oarsub -p interrupt=0  ./run_0203930101.oar -l walltime=50:00:00   --name 02039>
+oarsub -p interrupt=0  ./run_0694640601.oar -l walltime=50:00:00  --name 069464>
+oarsub -p interrupt=0  ./run_0694641301.oar -l walltime=50:00:00   --name 06946>
+oarsub -p interrupt=0  ./run_0802410101.oar -l walltime=100:00:00  --name 08024>
+oarsub -p interrupt=0  ./run_0862471101.oar -l walltime=100:00:00  --name 08624>
+```
+
+Each run_XX.oar script is looks like follows : 
+```bash
+#!/bin/bash
+
+#OAR -n Hello_World
+#OAR -l /nodes=2/core=1,walltime=00:01:30
+######OAR -l /nodes=1/core=1,walltime=00:01:30
+#OAR -l /nodes=1/core=1,walltime=01:01:30
+#OAR --stdout hello_world.%jobid%.out
+#OAR --stderr hello_world.%jobid%.err
+#OAR --notify mail:dilruwan.dehiwalage@univ-grenoble-alpes.fr 
+
+source /soft2/env.bash
+module load singularity-ce/3.9.6_gcc-6.3.0
+module load anaconda3/2019.10_gcc-6.3.0
+
+cd  /user/home/dehiwald/workdir/galactic_center/analysis/spectra_sub/0203930101
+
+singularity exec -B /user/home/dehiwald:/user/home/dehiwald /data/container/sas_20.0.dehiwald bash all_new_command.sh
+echo "Done"
+
+```
+
+
+3. After all jobs finished run master_step2.bash to extract the spectra 
 
 
 
+```bash
+#!/bin/bash
+
+oarsub -p interrupt=0  ./run_0112971501_2.oar -l walltime=100:00:00   --name 0112971501  --notify mail:dilrushanaka@gmai>
+oarsub -p interrupt=0  ./run_0203930101_2.oar -l walltime=100:00:00   --name 0203930101 --notify mail:dilrushanaka@gmail>
+oarsub -p interrupt=0  ./run_0694640601_2.oar -l walltime=100:00:00  --name 0694640601 --notify mail:dilrushanaka@gmail.>
+oarsub -p interrupt=0  ./run_0694641301_2.oar -l walltime=100:00:00   --name 0694641301 --notify mail:dilrushanaka@gmai>
+oarsub -p interrupt=0  ./run_0802410101_2.oar  -l walltime=100:00:00  --name 0802410101  --notify mail:dilrushanaka@gma>
+oarsub -p interrupt=0  ./run_0862471101_2.oar  -l walltime=100:00:00  --name 0862471101  --notify mail:dilrushanaka@gma>
+```
 
 
 
+Each run_XX_2.oar script is looks like follows : 
+```bash
+#!/bin/bash
 
+#OAR -n Hello_World
+#OAR -l /nodes=2/core=1,walltime=00:01:30
+######OAR -l /nodes=1/core=1,walltime=00:01:30
+#OAR -l /nodes=1/core=1,walltime=01:01:30
+#OAR --stdout hello_world.%jobid%.out
+#OAR --stderr hello_world.%jobid%.err
+#OAR --notify mail:dilruwan.dehiwalage@univ-grenoble-alpes.fr 
+
+source /soft2/env.bash
+module load singularity-ce/3.9.6_gcc-6.3.0
+module load anaconda3/2019.10_gcc-6.3.0
+
+cd  /user/home/dehiwald/workdir/galactic_center/analysis/spectra_sub/0203930101
+
+singularity exec -B /user/home/dehiwald:/user/home/dehiwald /data/container/sas_20.0.dehiwald bash run_all_2.sh
+
+echo "Done"
+
+```
 
