@@ -1,0 +1,92 @@
+mkdir: cannot create directory '0802410101': File exists
+rm: cannot remove '*.dat': No such file or directory
+rm: cannot remove '*.txt': No such file or directory
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' / World coord. system for this file 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATEREF to '1998-01-01' from MJDREF'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'unitfix' made the change 'Changed units:
+  'degree' -> 'deg',
+  'degree' -> 'deg'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATEREF to '1998-01-01' from MJDREF.
+Set MJD-OBS to 58210.069456 from DATE-OBS.
+Set MJD-END to 58211.227373 from DATE-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58210.053600 from DATE-OBS.
+Set MJD-END to 58211.230185 from DATE-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 58210.054016 from DATE-OBS.
+Set MJD-END to 58211.230255 from DATE-END'. [astropy.wcs.wcs]
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** rmfgen: warning (RangeStateVariable::set), The value 0 for variable `ccd' is not in the allowed range: 1 <= value <= 12
+
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** arfgen: warning (detmapXBoundsExceeded), The DSS x-axis extent [-24523,20131] exceeds the detmap x-axis bounds [-19499.5,19500.5]. This may produce an inappropriate ARF
+** arfgen: warning (detmapYBoundsExceeded), The DSS y-axis extent [-23437,21217] exceeds the detmap y-axis bounds [-19499.5,19500.5]. This may produce an inappropriate ARF
+** evselect: warning (NoFilteredEvents), No events have been selected - filtering of the event list resulted in an empty table
+** evselect: warning (NoExpEmpty), Cannot calculate exposure when no events are selected. Cannot write EXPOSURE keyword for output products.
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoFilteredEvents), No events have been selected - filtering of the event list resulted in an empty table
+** evselect: warning (NoExpEmpty), Cannot calculate exposure when no events are selected. Cannot write EXPOSURE keyword for output products.
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoFilteredEvents), No events have been selected - filtering of the event list resulted in an empty table
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (NoExpEmpty), Cannot calculate exposure when no events are selected. Cannot write EXPOSURE keyword for output products.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoFilteredEvents), No events have been selected - filtering of the event list resulted in an empty table
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (NoExpEmpty), Cannot calculate exposure when no events are selected. Cannot write EXPOSURE keyword for output products.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoFilteredEvents), No events have been selected - filtering of the event list resulted in an empty table
+** evselect: warning (DssBlockClash), Name clash while writing Data Subspace: Block REG00106 already exists in output data set. Renaming block to REG00107.
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoFilteredEvents), No events have been selected - filtering of the event list resulted in an empty table
+** evselect: warning (DssBlockClash), Name clash while writing Data Subspace: Block REG00106 already exists in output data set. Renaming block to REG00107.
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+   warning NoWCS silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins

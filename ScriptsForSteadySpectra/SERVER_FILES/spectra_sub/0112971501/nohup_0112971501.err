@@ -1,0 +1,1528 @@
+mkdir: cannot create directory '0112971501': File exists
+rm: cannot remove '*.dat': No such file or directory
+rm: cannot remove '*.txt': No such file or directory
+** odfingest: warning (EpnFrameTimeMismatch), The window coordinates indicate this to be either `PrimeFullWindow' or `PrimeFullWindowExtended' mode but the read frame time 6 [ms] does not match the nominal values (73/199 [ms]) of either of those and the parameter F1293 (FRAME_TIME_PARAMETER) is not present - the frame time is likely to be the latter where the lack of an accurate FRAMETIME keyword for `PrimeFullWindowExtended' is a known ODF problem - will continue with `PrimeFullWindowExtended'. If you have created a summary file with odfingest you can check the value of FRAME_TIME_PARAMETER for this PN exposure. If it is not equal to 0 this is indeed an `PrimeFullWindowExtended' exposure.
+** odfingest: warning (TranslationNotAvailable), No look up possible [EPN Filter]It is not possible to translate FILTER. Its raw value is -nan
+** odfingest: warning (HousekeepingParameterMissing), PN/U002 NoAvailableRows: No rows match the expression (F1119 == "STOPPED") && (#ROW >= 3263 && #ROW <= 3262) in /user/home/dehiwald/workdir/galactic_center/data/0112971501/0240_0112971501_PNX00000PMH.FIT:PNPMH1
+** odfingest: warning (SummaryOfWarnings), 
+   warning EpnFrameTimeMismatch silently occurred 11 times
+   warning HousekeepingParameterMissing silently occurred 19 times
+   warning TranslationNotAvailable silently occurred 9 times
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709717.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709721.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709725.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709729.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709733.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709737.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709741.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709745.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709749.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709753.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (SummaryOfWarnings), 
+   warning Extrapolation silently occurred 3336 times
+** epframes: warning (InvalidObtValue), OBT vector element #43 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #103 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #139 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #201 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #220 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #223 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #234 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #246 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #258 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #358 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 62 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #43 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #103 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #139 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #201 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #220 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #223 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #234 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #246 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #258 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #358 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 62 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #43 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #103 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #139 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #201 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #220 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #223 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #234 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #246 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #258 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #358 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 62 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #56 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #269 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #515 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #557 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #713 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #758 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #765 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #837 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #893 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #952 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 30 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #56 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #269 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #515 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #557 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #713 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #758 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #765 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #837 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #893 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #952 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 30 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #56 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #269 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #515 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #557 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #713 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #758 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #765 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #837 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #893 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #952 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 30 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #25 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #246 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #252 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #253 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #301 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #339 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #387 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #437 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #493 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #545 is invalid (-100)
+** epframes: warning (wrongReadoutOrder),  Events in wrong order: Event       980156 : IX,IY =     34     71 ; Previous event: IX,IY =     39    197
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 82 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #25 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #246 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #252 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #253 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #301 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #339 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #387 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #437 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #493 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #545 is invalid (-100)
+** epframes: warning (wrongReadoutOrder),  Events in wrong order: Event       205836 : IX,IY =     42     83 ; Previous event: IX,IY =     52    197
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 82 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #25 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #246 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #252 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #253 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #301 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #339 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #387 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #437 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #493 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #545 is invalid (-100)
+** epframes: warning (wrongReadoutOrder),  Events in wrong order: Event       156425 : IX,IY =     60     43 ; Previous event: IX,IY =     40     46
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 82 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #94 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #352 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #376 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #421 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #524 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #580 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #711 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #722 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #841 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #936 is invalid (-100)
+** epframes: warning (wrongReadoutOrder),  Events in wrong order: Event       239757 : IX,IY =      3    150 ; Previous event: IX,IY =     47    182
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 55 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #94 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #352 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #376 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #421 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #524 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #580 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #711 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #722 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #841 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #936 is invalid (-100)
+** epframes: warning (wrongReadoutOrder),  Events in wrong order: Event       235416 : IX,IY =     28     36 ; Previous event: IX,IY =     43    137
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 55 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #469 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #470 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #587 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #639 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #640 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #1992 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #1993 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #2363 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #3073 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #3328 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #469 (CCD/rawX/rawY = 11[3/1]/27/28[101/27]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #470 (CCD/rawX/rawY = 11[3/1]/27/29[101/28]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #587 (CCD/rawX/rawY = 11[3/1]/27/18[101/17]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #639 (CCD/rawX/rawY = 11[3/1]/27/118[101/117]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #640 (CCD/rawX/rawY = 11[3/1]/27/119[101/118]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #1992 (CCD/rawX/rawY = 11[3/1]/27/33[101/32]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #1993 (CCD/rawX/rawY = 11[3/1]/27/34[101/33]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #2363 (CCD/rawX/rawY = 11[3/1]/27/129[101/128]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #3073 (CCD/rawX/rawY = 11[3/1]/27/109[101/108]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #3328 (CCD/rawX/rawY = 11[3/1]/27/119[101/118]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (SummaryOfWarnings), 
+   warning ctiCorrectionFailed silently occurred 1993 times
+   warning gainCorrectionFailed silently occurred 1993 times
+** epframes: warning (InvalidObtValue), OBT vector element #94 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #352 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #376 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #421 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #524 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #580 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #711 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #722 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #841 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #936 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 55 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epexposure: warning (spatialExposure), determination of spatial (CCD column) exposure correction not yet enabled, dummy only.
+** tabcalc: warning (OverwriteColumn), The new column `RATE' exists already in the table P0112971501PNS003FBKTSR0000.FIT:RATE - it will get overwritten
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709717.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709721.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709725.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709729.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709733.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709737.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709741.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709745.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709749.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (Extrapolation), Evaluating OBT-MET fit polynomial at x=23709753.95 which is outside the time correlation data abscissa range [23709958.61, 23736414.83] - result of extrapolation might be afflicted with large numerical uncertainty.
+** radmonfix: warning (SummaryOfWarnings), 
+   warning Extrapolation silently occurred 3336 times
+** epframes: warning (InvalidObtValue), OBT vector element #43 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #103 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #139 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #201 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #220 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #223 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #234 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #246 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #258 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #358 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 62 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #62 (CCD/rawX/rawY = 1[0/0]/13/66[179/65]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #448 (CCD/rawX/rawY = 1[0/0]/13/66[179/65]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #734 (CCD/rawX/rawY = 1[0/0]/13/67[179/66]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #823 (CCD/rawX/rawY = 1[0/0]/13/66[179/65]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #1021 (CCD/rawX/rawY = 1[0/0]/13/66[179/65]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #1060 (CCD/rawX/rawY = 1[0/0]/13/66[179/65]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #1538 (CCD/rawX/rawY = 1[0/0]/13/67[179/66]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #1665 (CCD/rawX/rawY = 1[0/0]/13/67[179/66]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #1790 (CCD/rawX/rawY = 1[0/0]/13/66[179/65]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #1869 (CCD/rawX/rawY = 1[0/0]/13/66[179/65]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (SummaryOfWarnings), 
+   warning ctiCorrectionFailed silently occurred 2902 times
+** epframes: warning (InvalidObtValue), OBT vector element #43 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #103 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #139 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #201 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #220 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #223 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #234 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #246 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #258 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #358 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 62 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #6643 (CCD/rawX/rawY = 2[0/1]/14/36[114/35]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #8164 (CCD/rawX/rawY = 2[0/1]/34/88[94/87]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #10018 (CCD/rawX/rawY = 2[0/1]/39/154[89/153]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #13410 (CCD/rawX/rawY = 2[0/1]/39/155[89/154]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #15390 (CCD/rawX/rawY = 2[0/1]/39/154[89/153]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #15493 (CCD/rawX/rawY = 2[0/1]/34/88[94/87]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #17703 (CCD/rawX/rawY = 2[0/1]/39/155[89/154]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #19036 (CCD/rawX/rawY = 2[0/1]/39/154[89/153]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #20361 (CCD/rawX/rawY = 2[0/1]/39/155[89/154]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #28726 (CCD/rawX/rawY = 2[0/1]/39/154[89/153]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (SummaryOfWarnings), 
+   warning ctiCorrectionFailed silently occurred 86 times
+** epframes: warning (InvalidObtValue), OBT vector element #43 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #103 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #139 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #201 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #220 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #223 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #234 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #246 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #258 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #358 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 62 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #56 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #269 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #515 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #557 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #713 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #758 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #765 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #837 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #893 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #952 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 30 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #56 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #269 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #515 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #557 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #713 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #758 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #765 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #837 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #893 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #952 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 30 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #7958 (CCD/rawX/rawY = 5[1/1]/20/155[108/154]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #19296 (CCD/rawX/rawY = 5[1/1]/44/21[84/20]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #25284 (CCD/rawX/rawY = 5[1/1]/44/20[84/19]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #25285 (CCD/rawX/rawY = 5[1/1]/44/21[84/20]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #28529 (CCD/rawX/rawY = 5[1/1]/20/155[108/154]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #31103 (CCD/rawX/rawY = 5[1/1]/20/155[108/154]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #35944 (CCD/rawX/rawY = 5[1/1]/44/20[84/19]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #36695 (CCD/rawX/rawY = 5[1/1]/20/155[108/154]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #37940 (CCD/rawX/rawY = 5[1/1]/44/21[84/20]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #40050 (CCD/rawX/rawY = 5[1/1]/44/20[84/19]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (SummaryOfWarnings), 
+   warning ctiCorrectionFailed silently occurred 47 times
+** epframes: warning (InvalidObtValue), OBT vector element #56 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #269 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #515 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #557 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #713 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #758 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #765 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #837 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #893 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #952 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 30 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epframes: warning (InvalidObtValue), OBT vector element #25 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #246 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #252 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #253 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #301 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #339 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #387 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #437 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #493 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #545 is invalid (-100)
+** epframes: warning (wrongReadoutOrder),  Events in wrong order: Event       980156 : IX,IY =     34     71 ; Previous event: IX,IY =     39    197
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 82 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #31 (CCD/rawX/rawY = 7[2/0]/34/48[158/47]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #212 (CCD/rawX/rawY = 7[2/0]/34/48[158/47]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #481 (CCD/rawX/rawY = 7[2/0]/34/48[158/47]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #1090 (CCD/rawX/rawY = 7[2/0]/34/48[158/47]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #2328 (CCD/rawX/rawY = 7[2/0]/34/48[158/47]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #2530 (CCD/rawX/rawY = 7[2/0]/34/48[158/47]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #2644 (CCD/rawX/rawY = 7[2/0]/34/48[158/47]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #2826 (CCD/rawX/rawY = 7[2/0]/34/48[158/47]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #3420 (CCD/rawX/rawY = 7[2/0]/34/48[158/47]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #4007 (CCD/rawX/rawY = 7[2/0]/34/48[158/47]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (SummaryOfWarnings), 
+   warning ctiCorrectionFailed silently occurred 10729 times
+** epframes: warning (InvalidObtValue), OBT vector element #25 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #246 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #252 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #253 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #301 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #339 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #387 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #437 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #493 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #545 is invalid (-100)
+** epframes: warning (wrongReadoutOrder),  Events in wrong order: Event       205836 : IX,IY =     42     83 ; Previous event: IX,IY =     52    197
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 82 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #443 (CCD/rawX/rawY = 8[2/1]/27/51[101/50]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #3376 (CCD/rawX/rawY = 8[2/1]/48/86[80/85]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #6436 (CCD/rawX/rawY = 8[2/1]/27/37[101/36]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #7065 (CCD/rawX/rawY = 8[2/1]/48/86[80/85]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #11505 (CCD/rawX/rawY = 8[2/1]/48/86[80/85]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #12019 (CCD/rawX/rawY = 8[2/1]/27/51[101/50]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #13938 (CCD/rawX/rawY = 8[2/1]/27/37[101/36]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #15584 (CCD/rawX/rawY = 8[2/1]/27/36[101/35]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #16207 (CCD/rawX/rawY = 8[2/1]/27/37[101/36]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #16797 (CCD/rawX/rawY = 8[2/1]/54/94[74/93]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (SummaryOfWarnings), 
+   warning ctiCorrectionFailed silently occurred 346 times
+** epframes: warning (InvalidObtValue), OBT vector element #25 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #246 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #252 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #253 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #301 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #339 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #387 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #437 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #493 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #545 is invalid (-100)
+** epframes: warning (wrongReadoutOrder),  Events in wrong order: Event       156425 : IX,IY =     60     43 ; Previous event: IX,IY =     40     46
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 82 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #226 (CCD/rawX/rawY = 9[2/2]/10/116[54/115]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #2667 (CCD/rawX/rawY = 9[2/2]/20/136[44/135]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #4175 (CCD/rawX/rawY = 9[2/2]/64/179[0/178]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #5991 (CCD/rawX/rawY = 9[2/2]/20/136[44/135]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #8260 (CCD/rawX/rawY = 9[2/2]/18/82[46/81]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #9073 (CCD/rawX/rawY = 9[2/2]/40/101[24/100]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #9094 (CCD/rawX/rawY = 9[2/2]/40/101[24/100]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #10042 (CCD/rawX/rawY = 9[2/2]/10/116[54/115]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #12736 (CCD/rawX/rawY = 9[2/2]/40/101[24/100]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #12878 (CCD/rawX/rawY = 9[2/2]/20/136[44/135]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (SummaryOfWarnings), 
+   warning ctiCorrectionFailed silently occurred 272 times
+** epframes: warning (InvalidObtValue), OBT vector element #94 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #352 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #376 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #421 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #524 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #580 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #711 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #722 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #841 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #936 is invalid (-100)
+** epframes: warning (wrongReadoutOrder),  Events in wrong order: Event       239757 : IX,IY =      3    150 ; Previous event: IX,IY =     47    182
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 55 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #4331 (CCD/rawX/rawY = 10[3/0]/64/145[0/144]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #4675 (CCD/rawX/rawY = 10[3/0]/61/140[3/139]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #5370 (CCD/rawX/rawY = 10[3/0]/57/191[7/190]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #6203 (CCD/rawX/rawY = 10[3/0]/57/191[7/190]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #6218 (CCD/rawX/rawY = 10[3/0]/57/191[7/190]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #6383 (CCD/rawX/rawY = 10[3/0]/57/191[7/190]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #6721 (CCD/rawX/rawY = 10[3/0]/57/191[7/190]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #6729 (CCD/rawX/rawY = 10[3/0]/3/17[61/16]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #6898 (CCD/rawX/rawY = 10[3/0]/3/17[61/16]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #6935 (CCD/rawX/rawY = 10[3/0]/64/145[0/144]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (SummaryOfWarnings), 
+   warning ctiCorrectionFailed silently occurred 907 times
+** epframes: warning (InvalidObtValue), OBT vector element #94 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #352 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #376 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #421 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #524 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #580 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #711 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #722 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #841 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #936 is invalid (-100)
+** epframes: warning (wrongReadoutOrder),  Events in wrong order: Event       235416 : IX,IY =     28     36 ; Previous event: IX,IY =     43    137
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 55 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #469 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #470 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #587 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #639 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #640 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #1992 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #1993 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #2363 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #3073 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (gainCorrectionFailed), Gain correction algorithm for event #3328 (CCD/rawX = 11[3/1]/27) failed - error code: 3 no correction applied - reason for failure: negative amplitude
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #469 (CCD/rawX/rawY = 11[3/1]/27/144[101/143]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #470 (CCD/rawX/rawY = 11[3/1]/27/145[101/144]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #587 (CCD/rawX/rawY = 11[3/1]/27/26[101/25]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #639 (CCD/rawX/rawY = 11[3/1]/27/30[101/29]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #640 (CCD/rawX/rawY = 11[3/1]/27/31[101/30]) failed - error code: 3 - no correction applied - reason for failure: the column has no calibration data
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #685 (CCD/rawX/rawY = 11[3/1]/64/19[64/18]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #996 (CCD/rawX/rawY = 11[3/1]/64/19[64/18]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #1254 (CCD/rawX/rawY = 11[3/1]/64/19[64/18]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #1291 (CCD/rawX/rawY = 11[3/1]/64/19[64/18]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #1614 (CCD/rawX/rawY = 11[3/1]/64/19[64/18]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (SummaryOfWarnings), 
+   warning ctiCorrectionFailed silently occurred 3162 times
+   warning gainCorrectionFailed silently occurred 1993 times
+** epframes: warning (InvalidObtValue), OBT vector element #94 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #352 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #376 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #421 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #524 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #580 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #711 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #722 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #841 is invalid (-100)
+** epframes: warning (InvalidObtValue), OBT vector element #936 is invalid (-100)
+** epframes: warning (SummaryOfWarnings), 
+   warning InvalidObtValue silently occurred 55 times
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** badpixfind: warning (findRealSources), chosen narrowerthanpsf parameter very low - real sources may be found
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #5559 (CCD/rawX/rawY = 12[3/2]/19/90[173/89]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #6885 (CCD/rawX/rawY = 12[3/2]/51/86[141/85]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #13405 (CCD/rawX/rawY = 12[3/2]/51/86[141/85]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #27036 (CCD/rawX/rawY = 12[3/2]/19/90[173/89]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #27518 (CCD/rawX/rawY = 12[3/2]/51/86[141/85]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #35635 (CCD/rawX/rawY = 12[3/2]/51/86[141/85]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #38191 (CCD/rawX/rawY = 12[3/2]/19/90[173/89]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #42681 (CCD/rawX/rawY = 12[3/2]/19/90[173/89]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #43387 (CCD/rawX/rawY = 12[3/2]/51/86[141/85]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (ctiCorrectionFailed), CTI correction algorithm for event #44831 (CCD/rawX/rawY = 12[3/2]/19/90[173/89]) failed - error code: 2 - no correction applied - reason for failure: very bright pixel/to be discarded
+** epevents: warning (SummaryOfWarnings), 
+   warning ctiCorrectionFailed silently occurred 57 times
+** epexposure: warning (spatialExposure), determination of spatial (CCD column) exposure correction not yet enabled, dummy only.
+** tabcalc: warning (OverwriteColumn), The new column `RATE' exists already in the table P0112971501PNS003FBKTSR0000.FIT:RATE - it will get overwritten
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+No user parameter file found in path /user/home/dehiwald/pfiles/0112971501
+Unable to copy a parameter file for fkeyprint.par from the path 
+/user/home/dehiwald/pfiles/0112971501
+ls: cannot access 'P??????????PNU???PIEVLI????.FIT': No such file or directory
+ls: cannot access 'P??????????PNU???OOEVLI????.FIT': No such file or directory
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** espfilt: warning (MaxPLCltHigh), Max plc value outside acceptable range
+** espfilt: warning (HfitEvalBlownUp), Components for calculating H_IMME/H_TOTL may have blown up.
+** espfilt: warning (LfitEvalBlownUp), Components for calculating L_IMME/L_TOTL may have blown up.
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+cp: cannot stat 'pnS003-gti.txt': No such file or directory
+cp: cannot stat 'S003-hist.qdp': No such file or directory
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+ls: cannot access 'P??????????M?S???MIEVLI????.FIT': No such file or directory
+ls: cannot access 'P??????????M?U???MIEVLI????.FIT': No such file or directory
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' / World coord. system for this file 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATEREF to '1998-01-01' from MJDREF'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'unitfix' made the change 'Changed units:
+  'degree' -> 'deg',
+  'degree' -> 'deg'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATEREF to '1998-01-01' from MJDREF.
+Set MJD-OBS to 52000.068160 from DATE-OBS.
+Set MJD-END to 52000.305417 from DATE-END'. [astropy.wcs.wcs]
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** ecoordconv: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-image-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+Traceback (most recent call last):
+  File "/user/home/dehiwald/workdir/galactic_center/analysis/spectra_sub/0112971501/python_scripts/5_coordinateconv2.py", line 154, in <module>
+    create_region_files_det(reg_files_det+'reg_mos1.dat','m1',row_count_file=reg_files+'reg_row_pix.reg' )
+  File "/user/home/dehiwald/workdir/galactic_center/analysis/spectra_sub/0112971501/python_scripts/5_coordinateconv2.py", line 42, in create_region_files_det
+    row1 = np.delete(row1, [-1])
+  File "<__array_function__ internals>", line 5, in delete
+  File "/usr/local/lib/python3.8/dist-packages/numpy/lib/function_base.py", line 4552, in delete
+    keep[obj,] = False
+IndexError: index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "/user/home/dehiwald/workdir/galactic_center/analysis/spectra_sub/0112971501/python_scripts/createbintable_edit.py", line 186, in <module>
+    create_region_table(fits_f[i],regions_det[i],tables_det[i],instr[i])
+  File "/user/home/dehiwald/workdir/galactic_center/analysis/spectra_sub/0112971501/python_scripts/createbintable_edit.py", line 53, in create_region_table
+    hdu = fits.open(fits_file_path+fits_file)[0]
+  File "/usr/local/lib/python3.8/dist-packages/astropy/io/fits/hdu/hdulist.py", line 176, in fitsopen
+    return HDUList.fromfile(name, mode, memmap, save_backup, cache,
+  File "/usr/local/lib/python3.8/dist-packages/astropy/io/fits/hdu/hdulist.py", line 411, in fromfile
+    return cls._readfrom(fileobj=fileobj, mode=mode, memmap=memmap,
+  File "/usr/local/lib/python3.8/dist-packages/astropy/io/fits/hdu/hdulist.py", line 1071, in _readfrom
+    fileobj = _File(fileobj, mode=mode, memmap=memmap, cache=cache)
+  File "/usr/local/lib/python3.8/dist-packages/astropy/utils/decorators.py", line 547, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/astropy/io/fits/file.py", line 175, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/usr/local/lib/python3.8/dist-packages/astropy/io/fits/file.py", line 564, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/usr/local/lib/python3.8/dist-packages/astropy/io/fits/util.py", line 390, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/user/home/dehiwald/workdir/galactic_center/analysis/0112971501/mos1S001-obj-image-sky.fits'
+Traceback (most recent call last):
+  File "/user/home/dehiwald/workdir/galactic_center/analysis/spectra_sub/0112971501/python_scripts/createbintable_bigtable.py", line 167, in <module>
+    create_region_table(fits_f[i],regions_det[i],tables_det[i],instr[i])
+  File "/user/home/dehiwald/workdir/galactic_center/analysis/spectra_sub/0112971501/python_scripts/createbintable_bigtable.py", line 39, in create_region_table
+    hdu = fits.open(fits_file_path+fits_file)[0]
+  File "/usr/local/lib/python3.8/dist-packages/astropy/io/fits/hdu/hdulist.py", line 176, in fitsopen
+    return HDUList.fromfile(name, mode, memmap, save_backup, cache,
+  File "/usr/local/lib/python3.8/dist-packages/astropy/io/fits/hdu/hdulist.py", line 411, in fromfile
+    return cls._readfrom(fileobj=fileobj, mode=mode, memmap=memmap,
+  File "/usr/local/lib/python3.8/dist-packages/astropy/io/fits/hdu/hdulist.py", line 1071, in _readfrom
+    fileobj = _File(fileobj, mode=mode, memmap=memmap, cache=cache)
+  File "/usr/local/lib/python3.8/dist-packages/astropy/utils/decorators.py", line 547, in wrapper
+    return function(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/astropy/io/fits/file.py", line 175, in __init__
+    self._open_filename(fileobj, mode, overwrite)
+  File "/usr/local/lib/python3.8/dist-packages/astropy/io/fits/file.py", line 564, in _open_filename
+    self._file = fileobj_open(self.name, IO_FITS_MODES[mode])
+  File "/usr/local/lib/python3.8/dist-packages/astropy/io/fits/util.py", line 390, in fileobj_open
+    return open(filename, mode, buffering=0)
+FileNotFoundError: [Errno 2] No such file or directory: '/user/home/dehiwald/workdir/galactic_center/analysis/0112971501/mos1S001-obj-image-sky.fits'
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** eexpmap: error (datasetCouldNotBeRead), The dataset with name 'pnS003-obj-im-det-500-10000.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-obj-oot.pi' could not be read; either it does not exist or it is in an unrecognised format
+** rmfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-sky.fits' could not be read; either it does not exist or it is in an unrecognised format
+** eexpmap: error (datasetCouldNotBeRead), The dataset with name 'pnS003-obj-im-500-10000.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-1obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-1obj-oot.pi' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-1ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-1ff-oot.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+farith4.3 : unable to open infile pnS003-im1-500-10000.fits
+farith4.3 : Error Status Returned :  104
+farith4.3 : could not open the named file
+
+farith4.3 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-im1-500-10000.fits
+Error in ffc2dd converting string to double: pnS003-im1-500-10000.fits
+mv: cannot stat 'pnS003-im1-500-10000-mask.fits': No such file or directory
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+farith4.3 : unable to open infile pnS003-im1-500-10000-oot.fits
+farith4.3 : Error Status Returned :  104
+farith4.3 : could not open the named file
+
+farith4.3 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-im1-500-10000-oot.fits
+Error in ffc2dd converting string to double: pnS003-im1-500-10000-oot.fits
+mv: cannot stat 'pnS003-im1-500-10000-mask-oot.fits': No such file or directory
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-2obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-2obj-oot.pi' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-2ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-2ff-oot.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+farith4.3 : unable to open infile pnS003-im2-500-10000.fits
+farith4.3 : Error Status Returned :  104
+farith4.3 : could not open the named file
+
+farith4.3 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-im2-500-10000.fits
+Error in ffc2dd converting string to double: pnS003-im2-500-10000.fits
+mv: cannot stat 'pnS003-im2-500-10000-mask.fits': No such file or directory
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+farith4.3 : unable to open infile pnS003-im2-500-10000-oot.fits
+farith4.3 : Error Status Returned :  104
+farith4.3 : could not open the named file
+
+farith4.3 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-im2-500-10000-oot.fits
+Error in ffc2dd converting string to double: pnS003-im2-500-10000-oot.fits
+mv: cannot stat 'pnS003-im2-500-10000-mask-oot.fits': No such file or directory
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-3obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-3obj-oot.pi' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-3ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-3ff-oot.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+farith4.3 : unable to open infile pnS003-im3-500-10000.fits
+farith4.3 : Error Status Returned :  104
+farith4.3 : could not open the named file
+
+farith4.3 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-im3-500-10000.fits
+Error in ffc2dd converting string to double: pnS003-im3-500-10000.fits
+mv: cannot stat 'pnS003-im3-500-10000-mask.fits': No such file or directory
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+farith4.3 : unable to open infile pnS003-im3-500-10000-oot.fits
+farith4.3 : Error Status Returned :  104
+farith4.3 : could not open the named file
+
+farith4.3 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-im3-500-10000-oot.fits
+Error in ffc2dd converting string to double: pnS003-im3-500-10000-oot.fits
+mv: cannot stat 'pnS003-im3-500-10000-mask-oot.fits': No such file or directory
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-4obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-4obj-oot.pi' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-4ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'pnS003-4ff-oot.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: warning (NoAttrib), The Attribute DLMEAN does not exist in the input event list. No value was copied.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoAttrib silently occurred 1 times
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+farith4.3 : unable to open infile pnS003-im4-500-10000.fits
+farith4.3 : Error Status Returned :  104
+farith4.3 : could not open the named file
+
+farith4.3 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-im4-500-10000.fits
+Error in ffc2dd converting string to double: pnS003-im4-500-10000.fits
+mv: cannot stat 'pnS003-im4-500-10000-mask.fits': No such file or directory
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'pnS003-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+farith4.3 : unable to open infile pnS003-im4-500-10000-oot.fits
+farith4.3 : Error Status Returned :  104
+farith4.3 : could not open the named file
+
+farith4.3 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-im4-500-10000-oot.fits
+Error in ffc2dd converting string to double: pnS003-im4-500-10000-oot.fits
+mv: cannot stat 'pnS003-im4-500-10000-mask-oot.fits': No such file or directory
+** esky2det: error (datasetCouldNotBeRead), The dataset with name 'pnS003-obj-im-500-10000.fits' could not be read; either it does not exist or it is in an unrecognised format
+/user/home/dehiwald/workdir/galactic_center/analysis/0112971501/pn_commands.sh: line 303: 3210437 Segmentation fault      pn_back prefix=S003 caldb=$CALDB diag=0 elow=500 ehigh=10000 quad1=1 quad2=1 quad3=1 quad4=1 clobber=1
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+pnS003-obj-im-500-10000.fits[0]
+** esky2det: error (ParamNotInRange), Parameter 'ra';
+value '20291.2174800485' is outside range "ra in [0.0:360.0]"
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-clean.fits' to 'filtered.fits' because 'mos1S001-clean.fits' does not exist.
+** eexpmap: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-im.fits' could not be read; either it does not exist or it is in an unrecognised format
+** emask: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-exp-im.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-clean.fits' to 'filtered.fits' because 'mos1S001-clean.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-clean.fits' to 'filtered.fits' because 'mos1S001-clean.fits' does not exist.
+** eexpmap: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-im.fits' could not be read; either it does not exist or it is in an unrecognised format
+** emask: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-exp-im.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-clean.fits' to 'filtered.fits' because 'mos1S001-clean.fits' does not exist.
+** rmfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-clean.fits' to 'filtered.fits' because 'mos1S001-clean.fits' does not exist.
+** arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-clean.fits' to 'filtered.fits' because 'mos1S001-clean.fits' does not exist.
+** eexpmap: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-im-500-10000.fits' could not be read; either it does not exist or it is in an unrecognised format
+** emask: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-exp-im-500-10000.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-1ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-clean.fits' to 'filtered.fits' because 'mos1S001-clean.fits' does not exist.
+** eexpmap: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-obj-im-500-10000-ccd1.fits' could not be read; either it does not exist or it is in an unrecognised format
+** emask: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-exp-im-500-10000-ccd1.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+farith4.3 : unable to open infile mos1S001-im1-500-10000.fits
+farith4.3 : Error Status Returned :  104
+farith4.3 : could not open the named file
+
+farith4.3 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos1S001-im1-500-10000.fits
+Error in ffc2dd converting string to double: mos1S001-im1-500-10000.fits
+mv: cannot stat 'mos1S001-im1-500-10000-mask.fits': No such file or directory
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-1obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-corn.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-2oc.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-2obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** backscale::arfgen: warning (NoBadPixLocations),  Warning couldn't find dataset: mos1S001-clean.fits - correcting for chip gaps but not for bad pixels
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-2ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-corn.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-3oc.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-3obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** backscale::arfgen: warning (NoBadPixLocations),  Warning couldn't find dataset: mos1S001-clean.fits - correcting for chip gaps but not for bad pixels
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-3ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-corn.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-4oc.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-4obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** backscale::arfgen: warning (NoBadPixLocations),  Warning couldn't find dataset: mos1S001-clean.fits - correcting for chip gaps but not for bad pixels
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-4ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-corn.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-5oc.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-5obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** backscale::arfgen: warning (NoBadPixLocations),  Warning couldn't find dataset: mos1S001-clean.fits - correcting for chip gaps but not for bad pixels
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-5ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-corn.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-6oc.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-6obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** backscale::arfgen: warning (NoBadPixLocations),  Warning couldn't find dataset: mos1S001-clean.fits - correcting for chip gaps but not for bad pixels
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-6ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-corn.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-7oc.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-7obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos1S001-corn.fits' to 'temp_events.fits' because 'mos1S001-corn.fits' does not exist.
+** backscale::arfgen: warning (NoBadPixLocations),  Warning couldn't find dataset: mos1S001-clean.fits - correcting for chip gaps but not for bad pixels
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-7ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos1S001-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+/user/home/dehiwald/workdir/galactic_center/analysis/0112971501/mos1_comands.sh: line 230: 3215799 Segmentation fault      mos_back prefix=1S001 caldb=$CALDB diag=0 elow=500 ehigh=10000 ccd1=1 ccd2=1 ccd3=1 ccd4=1 ccd5=1 ccd6=1 ccd7=1 clobber=1
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos1S001-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos1S001-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos1S001-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos1S001-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos1S001-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos1S001-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos1S001-obj-im-500-10000.fits[0]
+** esky2det: error (ParamNotInRange), Parameter 'ra';
+value '20291.2174800485' is outside range "ra in [0.0:360.0]"
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-clean.fits' to 'filtered.fits' because 'mos2S002-clean.fits' does not exist.
+** eexpmap: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-im.fits' could not be read; either it does not exist or it is in an unrecognised format
+** emask: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-exp-im.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-clean.fits' to 'filtered.fits' because 'mos2S002-clean.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-clean.fits' to 'filtered.fits' because 'mos2S002-clean.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-clean.fits' to 'filtered.fits' because 'mos2S002-clean.fits' does not exist.
+** eexpmap: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-im.fits' could not be read; either it does not exist or it is in an unrecognised format
+** emask: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-exp-im.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-clean.fits' to 'filtered.fits' because 'mos2S002-clean.fits' does not exist.
+** rmfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-clean.fits' to 'filtered.fits' because 'mos2S002-clean.fits' does not exist.
+** arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-clean.fits' to 'filtered.fits' because 'mos2S002-clean.fits' does not exist.
+** eexpmap: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-im-500-10000.fits' could not be read; either it does not exist or it is in an unrecognised format
+** emask: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-exp-im-500-10000.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-1ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-clean.fits' to 'filtered.fits' because 'mos2S002-clean.fits' does not exist.
+** eexpmap: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-im-500-10000-ccd1.fits' could not be read; either it does not exist or it is in an unrecognised format
+** emask: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-exp-im-500-10000-ccd1.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+farith4.3 : unable to open infile mos2S002-im1-500-10000.fits
+farith4.3 : Error Status Returned :  104
+farith4.3 : could not open the named file
+
+farith4.3 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos2S002-im1-500-10000.fits
+Error in ffc2dd converting string to double: mos2S002-im1-500-10000.fits
+mv: cannot stat 'mos2S002-im1-500-10000-mask.fits': No such file or directory
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-1obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-corn.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-2oc.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-2obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** backscale::arfgen: warning (NoBadPixLocations),  Warning couldn't find dataset: mos2S002-clean.fits - correcting for chip gaps but not for bad pixels
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-2ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-corn.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-3oc.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-3obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** backscale::arfgen: warning (NoBadPixLocations),  Warning couldn't find dataset: mos2S002-clean.fits - correcting for chip gaps but not for bad pixels
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-3ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-corn.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-4oc.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-4obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** backscale::arfgen: warning (NoBadPixLocations),  Warning couldn't find dataset: mos2S002-clean.fits - correcting for chip gaps but not for bad pixels
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-4ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-corn.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-5oc.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-5obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** backscale::arfgen: warning (NoBadPixLocations),  Warning couldn't find dataset: mos2S002-clean.fits - correcting for chip gaps but not for bad pixels
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-5ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-corn.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-6oc.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-6obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** backscale::arfgen: warning (NoBadPixLocations),  Warning couldn't find dataset: mos2S002-clean.fits - correcting for chip gaps but not for bad pixels
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-6ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-corn.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-7oc.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-clean.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-7obj.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** evselect: error (copyDataSetFailed), It was not possible to copy the dataset with name 'mos2S002-corn.fits' to 'temp_events.fits' because 'mos2S002-corn.fits' does not exist.
+** backscale::arfgen: warning (NoBadPixLocations),  Warning couldn't find dataset: mos2S002-clean.fits - correcting for chip gaps but not for bad pixels
+** backscale::arfgen: warning (zeroSumDetmap), The filtered detector map has a zero normalisation - returning zero area. Try using a flat detector map and/or more bins
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** backscale::arfgen: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-7ff.pi' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** evselect: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-bkg_region-det.fits' could not be read; either it does not exist or it is in an unrecognised format
+** esky2det: error (datasetCouldNotBeRead), The dataset with name 'mos2S002-obj-im-500-10000.fits' could not be read; either it does not exist or it is in an unrecognised format
+/user/home/dehiwald/workdir/galactic_center/analysis/0112971501/mos2_commands.sh: line 234: 3216771 Segmentation fault      mos_back prefix=2S002 caldb=$CALDB diag=0 elow=500 ehigh=10000 ccd1=1 ccd2=1 ccd3=1 ccd4=1 ccd5=1 ccd6=1 ccd7=1
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos2S002-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos2S002-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos2S002-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos2S002-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos2S002-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos2S002-obj-im-500-10000.fits[0]
+fkeypar3.1 : unable to open the FITS file
+fkeypar3.1 : Error Status Returned :  104
+fkeypar3.1 : could not open the named file
+
+fkeypar3.1 :  ***** FITSIO Error Stack Dump *****
+failed to find or open the following file: (ffopen)
+mos2S002-obj-im-500-10000.fits[0]
+** esky2det: error (ParamNotInRange), Parameter 'ra';
+value '20291.2174800485' is outside range "ra in [0.0:360.0]"

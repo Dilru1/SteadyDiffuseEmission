@@ -1,0 +1,1419 @@
+--------------------------------------------
+Starting spectral analysis
+--------------------------------------------
+Processing ObsID : 0694640601
+--------------------------------------------
+Saving Primary Science product in a BACKUP Directory
+Backup directory created: BACKUP_MAIN
+Copying contents from 0694640601 to BACKUP_MAIN...
+Copy completed.
+/user/home/dehiwald/workdir/galactic_center/analysis/0694640601/
+/user/home/dehiwald/workdir/galactic_center/analysis/0694640601/
+7.0 4.0
+266.99017903689804 -28.41778045466112
+12.0 4.0
+266.96561579718264 -28.453411267791694
+9.5 5.0
+266.96979596005053 -28.43127621010819
+15.0 5.0
+266.9427644611907 -28.470465859382006
+8.0 6.0
+266.96906235723924 -28.41626696019656
+13.5 6.0
+266.9420344199947 -28.455456462295366
+7.5 7.0
+266.96341693006315 -28.408383436073425
+13.0 7.0
+266.93638890928355 -28.447571824211522
+6.5 8.0
+266.9602284488006 -28.396936936782467
+9.0 8.0
+266.94794625950664 -28.414750206879464
+13.0 8.0
+266.9282861445038 -28.443249167335303
+6.5 9.0
+266.9521285933201 -28.392615685895866
+9.0 9.0
+266.9398455383642 -28.41042823021323
+13.0 9.0
+266.92018403959537 -28.438926029323913
+6.5 10.0
+266.94402939620556 -28.3882939549553
+9.0 10.0
+266.93174547626 -28.406105773195584
+13.0 10.0
+266.91208259480186 -28.434602410485528
+7.0 11.0
+266.9334742318729 -28.387534049648472
+10.0 11.0
+266.9187310010369 -28.40890696769681
+13.5 11.0
+266.9015230323764 -28.433840047896535
+8.0 12.0
+266.92046208578125 -28.390335403870452
+11.5 12.0
+266.9032575444645 -28.41526869336255
+15.0 12.0
+266.88604489124407 -28.4401998325955
+6.0 13.0
+266.9221925632941 -28.371763826817563
+8.5 13.0
+266.90990687972686 -28.389573682578128
+10.5 8.5
+266.9365242561335 -28.42327649965083
+Files with extension  copied successfully.
+Files with extension  copied successfully.
+/user/home/dehiwald/workdir/galactic_center/analysis/0694640601/
+224
+['DETX:', 'DETY:', '-2534.0413', '-1936.367']
+['DETX:', 'DETY:', '-990.39412', '636.01077']
+['DETX:', 'DETY:', '-1247.743', '-958.9079']
+['DETX:', 'DETY:', '450.26959', '1870.7085']
+['DETX:', 'DETY:', '-1196.3623', '-2039.3512']
+['DETX:', 'DETY:', '501.65044', '790.26537']
+['DETX:', 'DETY:', '-836.25208', '-2605.319']
+['DETX:', 'DETY:', '861.76099', '224.29784']
+['DETX:', 'DETY:', '-630.50656', '-3428.5249']
+['DETX:', 'DETY:', '141.31761', '-2142.3355']
+['DETX:', 'DETY:', '1376.2365', '-84.431888']
+['DETX:', 'DETY:', '-116.03128', '-3737.2552']
+['DETX:', 'DETY:', '655.79305', '-2451.0656']
+['DETX:', 'DETY:', '1890.7122', '-393.16171']
+['DETX:', 'DETY:', '398.44416', '-4045.9856']
+['DETX:', 'DETY:', '1170.2687', '-2759.7958']
+['DETX:', 'DETY:', '2405.1881', '-701.89163']
+['DETX:', 'DETY:', '1067.2847', '-4097.4781']
+['DETX:', 'DETY:', '1993.4743', '-2554.05']
+['DETX:', 'DETY:', '3074.0291', '-753.38356']
+['DETX:', 'DETY:', '1890.4904', '-3891.7326']
+['DETX:', 'DETY:', '2971.0453', '-2091.0661']
+['DETX:', 'DETY:', '4051.6004', '-290.39922']
+['DETX:', 'DETY:', '1787.5065', '-5229.4154']
+['DETX:', 'DETY:', '2559.3314', '-3943.2251']
+224
+['DETX:', 'DETY:', '1998.7368', '-2856.5397']
+['DETX:', 'DETY:', '-567.81496', '-1303.2268']
+['DETX:', 'DETY:', '1026.124', '-1566.5738']
+['DETX:', 'DETY:', '-1797.0843', '142.07146']
+['DETX:', 'DETY:', '2106.7528', '-1519.2581']
+['DETX:', 'DETY:', '-716.45542', '189.38731']
+['DETX:', 'DETY:', '2674.0713', '-1161.2797']
+['DETX:', 'DETY:', '-149.13716', '547.36613']
+['DETX:', 'DETY:', '3498.0452', '-958.63258']
+['DETX:', 'DETY:', '2214.7689', '-181.9754']
+['DETX:', 'DETY:', '161.52586', '1060.6766']
+['DETX:', 'DETY:', '3808.7088', '-445.3225']
+['DETX:', 'DETY:', '2525.4323', '331.33491']
+['DETX:', 'DETY:', '472.18899', '1573.9873']
+['DETX:', 'DETY:', '4119.3726', '67.987764']
+['DETX:', 'DETY:', '2836.0958', '844.6454']
+['DETX:', 'DETY:', '782.85223', '2087.2981']
+['DETX:', 'DETY:', '4173.3811', '736.62978']
+['DETX:', 'DETY:', '2633.4486', '1668.6193']
+['DETX:', 'DETY:', '836.86003', '2755.9409']
+['DETX:', 'DETY:', '3970.7342', '1560.6037']
+['DETX:', 'DETY:', '2174.1458', '2647.9253']
+['DETX:', 'DETY:', '377.55657', '3735.2474']
+['DETX:', 'DETY:', '5308.0199', '1452.5881']
+['DETX:', 'DETY:', '4024.7427', '2229.2464']
+224
+['DETX:', 'DETY:', '2696.3321', '1767.8895']
+['DETX:', 'DETY:', '1129.9412', '-790.70191']
+['DETX:', 'DETY:', '1401.4193', '801.87248']
+['DETX:', 'DETY:', '-321.61154', '-2012.5793']
+['DETX:', 'DETY:', '1359.6192', '1882.7289']
+['DETX:', 'DETY:', '-363.41199', '-931.72313']
+['DETX:', 'DETY:', '1004.5406', '2451.8671']
+['DETX:', 'DETY:', '-718.49099', '-362.58534']
+['DETX:', 'DETY:', '806.10111', '3276.8649']
+['DETX:', 'DETY:', '22.904867', '1997.5683']
+['DETX:', 'DETY:', '-1230.2094', '-49.306734']
+['DETX:', 'DETY:', '294.38302', '3590.1443']
+['DETX:', 'DETY:', '-488.81345', '2310.8475']
+['DETX:', 'DETY:', '-1741.9281', '263.97201']
+['DETX:', 'DETY:', '-217.33531', '3903.4238']
+['DETX:', 'DETY:', '-1000.532', '2624.1267']
+['DETX:', 'DETY:', '-2253.647', '577.2509']
+['DETX:', 'DETY:', '-885.69323', '3960.8441']
+['DETX:', 'DETY:', '-1825.5296', '2425.6872']
+['DETX:', 'DETY:', '-2922.0056', '634.67035']
+['DETX:', 'DETY:', '-1710.6909', '3762.4048']
+['DETX:', 'DETY:', '-2807.1671', '1971.3879']
+['DETX:', 'DETY:', '-3903.6435', '180.37052']
+['DETX:', 'DETY:', '-1595.8522', '5099.1229']
+['DETX:', 'DETY:', '-2379.0495', '3819.8251']
+1998.737
+-567.815
+1026.124
+-1797.084
+2106.753
+-716.455
+2674.071
+-149.137
+3498.045
+2214.769
+161.526
+3808.709
+2525.432
+472.189
+4119.373
+2836.096
+782.852
+4173.381
+2633.449
+836.86
+3970.734
+2174.146
+377.557
+5308.02
+4024.743
+/user/home/dehiwald/workdir/galactic_center/analysis/0694640601/
+['box(861.64992,-1524.9867,5980,5980,58.72)']
+[('ROTBOX', [861.6499,   0.    ,   0.    ,   0.    ], [-1524.9867,     0.    ,     0.    ,     0.    ], [5980., 5980.,    0.,    0.], [58.72,  0.  ,  0.  ,  0.  ], 1)]
+['box(1600.1345,540.67423,5980,5980,148.72)']
+[('ROTBOX', [1600.1345,    0.    ,    0.    ,    0.    ], [540.67426,   0.     ,   0.     ,   0.     ], [5980., 5980.,    0.,    0.], [148.72,   0.  ,   0.  ,   0.  ], 1)]
+['box(-702.87215,1386.6297,5980,5980,58.72)']
+[('ROTBOX', [-702.87213,    0.     ,    0.     ,    0.     ], [1386.6298,    0.    ,    0.    ,    0.    ], [5980., 5980.,    0.,    0.], [58.72,  0.  ,  0.  ,  0.  ], 1)]
+['box(27853.387,28934.848,6015.0,6015.0,301.28)']
+[('ROTBOX', [27853.387,     0.   ,     0.   ,     0.   ], [28934.848,     0.   ,     0.   ,     0.   ], [6015., 6015.,    0.,    0.], [301.28,   0.  ,   0.  ,   0.  ], 1)]
+['box(27853.387,28934.848,6015.0,6015.0,301.28)']
+[('ROTBOX', [27853.387,     0.   ,     0.   ,     0.   ], [28934.848,     0.   ,     0.   ,     0.   ], [6015., 6015.,    0.,    0.], [301.28,   0.  ,   0.  ,   0.  ], 1)]
+['box(27853.387,28934.848,6015.0,6015.0,301.28)']
+[('ROTBOX', [27853.387,     0.   ,     0.   ,     0.   ], [28934.848,     0.   ,     0.   ,     0.   ], [6015., 6015.,    0.,    0.], [301.28,   0.  ,   0.  ,   0.  ], 1)]
+--------------------------------------------
+Current path: /user/home/dehiwald/workdir/galactic_center/analysis/spectra_sub/0694640601
+--------------------------------------------
+--------------------------------------------
+Starting spectral analysis
+--------------------------------------------
+Processing ObsID : 0694640601
+--------------------------------------------
+evselect:- Executing (routine): evselect table=pnS003-clean.fits:EVENTS filteredset=filtered.fits withfilteredset=yes keepfilteroutput=yes flagcolumn=EVFLAG flagbit=-1 destruct=yes dssblock='' expression='(PATTERN<=12)&&(FLAG == 0)&&(PI in [500:8000])&&(DETY in [-16510:14345])' filtertype=expression cleandss=no updateexposure=yes filterexposure=yes writedss=yes blockstocopy='' attributestocopy='' energycolumn=PHA zcolumn=WEIGHT zerrorcolumn=EWEIGHT withzerrorcolumn=no withzcolumn=no ignorelegallimits=yes imageset=pnS003-obj-im.fits xcolumn=X ycolumn=Y ximagebinsize=1 yimagebinsize=1 squarepixels=yes ximagesize=900 yimagesize=900 imagebinning=imageSize ximagemin=3401 ximagemax=48400 withxranges=yes yimagemin=3401 yimagemax=48400 withyranges=yes imagedatatype=Int32 withimagedatatype=yes raimagecenter=0 decimagecenter=0 withcelestialcenter=no withimageset=yes spectrumset=spectrum.fits spectralbinsize=5 specchannelmin=0 specchannelmax=11999 withspecranges=no nonStandardSpec=no withspectrumset=no rateset=rate.fits timecolumn=TIME timebinsize=1 timemin=0 timemax=1000 withtimeranges=no maketimecolumn=no makeratecolumn=no withrateset=no histogramset=histo.fits histogramcolumn=TIME histogrambinsize=1 histogrammin=0 histogrammax=1000 withhistoranges=no withhistogramset=no  -w 1 -V 1
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Set to: notSpecified
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+   980.9     -594.2
+                                      
+pn_back:-  Exposure             =    34448.1445      s
+ xmmdir: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas                                                                               
+ Quiescent particle background data file:
+ /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas/pn-qpb.fits.gz            
+ diag:            0
+ prefix: S003
+ el, eh:          500       10000
+ Quadrant selection           1           1           1           1
+   
+ Create the OOT subtracted spectrum
+  
+ Observed spectrum: pnS003-obj.pi                                                                   
+  
+ PN Mode: PrimeFullWindow          
+ OOT Scale:   0.0630
+  
+ Spectrum RMF: pnS003.rmf                                                                      
+  
+ OOT spectrum: pnS003-obj-oot.pi                                                               
+  
+ Exposure:   34448.1 s
+  
+ Total band channel range:           76        2400
+ Soft band channel range:          115         257
+ Hard band channel range:          330        1440
+ Hardest band channel range:         1841        2700
+ Selected band channel range:           96        2000
+ Low bridge band channel range:          258         329
+ High bridge band channel range:         1441        1840
+   
+ Process the individual quadrant observation data and create OOT 
+ subtracted spectra and exposures which are area and exposure normalized.
+  
+ READ_PHA POSITION 12b
+ Missing EXPOSURE keyword
+ Probably due to exclustion of of the CCD in the selection expression
+ or no selected data on the CCD
+ READ_PHA POSITION 12b
+ Missing EXPOSURE keyword
+ Probably due to exclustion of of the CCD in the selection expression
+ or no selected data on the CCD
+   
+ Process the FWC data from the object region and create OOT 
+ subtracted and area and exposure normalized spectra
+  
+ Process the observation data from the corner regions and create 
+ OOT subtracted and area and exposure normalized spectra
+  
+ Quadrant:            1
+   
+ Quadrant:            2
+ Counts (0.4-12.0 keV):    2172.5  Exposure:   34574.3
+ hard,sighard,rate,sigrate =    5.63195086      0.501736939       983.986633       31.3685608    
+ i, hard:            2   5.63195086    
+ Augment the corner spectrum
+ c_val:    2.32814997E-03   5.63195086       2334.00000    
+ aug_scal:    4.99999987E-05  0.200000003       300.000000    
+ plc_lo,plc_hi:          115         257         330        1440
+Count Rate, Hardness, and Revolution: 0.002328   5.632   2334.
+Scaling Factors for Obs. Selection: 0.000050   0.200    300.
+ PN Mode: PrimeFullWindow          
+   6.30000010E-02
+ db_file: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas/pn-qpb.fits.gz            
+ Quadrant and QPB Extension
+           2 QUIES_QUAD2         
+Exposure:  1000515.1
+Exposure weighted count rate:   0.002330
+Observation count rate:   0.002328
+Observation hardness ratio:   5.631951
+ Total Obs, Good Observations, Selected Obs, Not Selected Obs:          750         748          57         272
+ Out of Range Obs, Bad Exposure Obs:          419           0
+Augmented count rate:   0.002358
+Augmented hardness ratio:    5.156
+Augmented exposure:  1000515.1
+  
+ The data are being scaled
+   
+ Quadrant:            3
+ Counts (0.4-12.0 keV):    2153.2  Exposure:   34400.4
+ hard,sighard,rate,sigrate =    5.08195782      0.450239211       927.323425       30.4519863    
+ i, hard:            3   5.08195782    
+ Augment the corner spectrum
+ c_val:    2.15346948E-03   5.08195782       2334.00000    
+ aug_scal:    4.99999987E-05  0.200000003       300.000000    
+ plc_lo,plc_hi:          115         257         330        1440
+Count Rate, Hardness, and Revolution: 0.002153   5.082   2334.
+Scaling Factors for Obs. Selection: 0.000050   0.200    300.
+ PN Mode: PrimeFullWindow          
+   6.30000010E-02
+ db_file: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas/pn-qpb.fits.gz            
+ Quadrant and QPB Extension
+           3 QUIES_QUAD3         
+Exposure:  1017799.1
+Exposure weighted count rate:   0.002183
+Observation count rate:   0.002153
+Observation hardness ratio:   5.081958
+ Total Obs, Good Observations, Selected Obs, Not Selected Obs:          750         747          50         267
+ Out of Range Obs, Bad Exposure Obs:          430           0
+Augmented count rate:   0.002226
+Augmented hardness ratio:    4.944
+Augmented exposure:  1017799.1
+  
+ The data are being scaled
+   
+ Quadrant:            4
+   
+   
+ Process the FWC corner data
+ t1 t2 =    35086128.0       6862677.00    
+ pnS003-im2-500-10000.fits                                                                                                           
+ pnS003-im2-500-10000-oot.fits                                                                                                       
+ pnS003-im3-500-10000.fits                                                                                                           
+ pnS003-im3-500-10000-oot.fits                                                                                                       
+ Output background image: pnS003-back-im-det-500-10000.fits                                               
+ File exists with output file name
+ pnS003-back-im-det-500-10000.fits                                               
+ Clobber the file and continue
+
+  Np = 3 N = 322 M.L.E. =   179.2    
+ Final parameter values and the formal standard errors
+
+ I0                  -0.76331 +/-    0.02493
+ I1                  -0.49367 +/-    0.19027
+ I2                   0.22036 +/-    0.48985
+ I3                  -0.09372 +/-    0.30626
+ -0.763309479     -0.493674457      0.220357046      -9.37187672E-02
+
+  Np = 3 N = 732 M.L.E. =   811.0    
+ Final parameter values and the formal standard errors
+
+ I0                 -16.53687 +/-    9.63993
+ I1                  22.32380 +/-   13.91590
+ I2                 -10.56903 +/-    6.54416
+ I3                   1.61249 +/-    1.00801
+  -16.5368729       22.3238010      -10.5690327       1.61248600    
+ plc_alk =          258         329
+ File exists with output file name
+ pnS003-back.pi                                                                  
+ Clobber the file and continue
+ File exists with output file name
+ pnS003-obj-os.pi                                                                
+ Clobber the file and continue
+   
+Task: rot-im-det-sky 
+Version: 3.1
+Date: 2011-02-10
+Author: S. L. Snowden
+prefix: S003
+elow: 500
+ehigh: 10000
+det: PN
+de: 3
+mode: 1
+mask: 1
+clobber: 1
+imfile: pnS003-obj-im-500-10000.fits[0]
+   
+CRVAL1 Right Ascension: 266.967041666667
+CRVAL2 Declination: -28.4651388888889
+PA_PNT rotation angle: 270.046569824219
+INSTRUME: 'EPN'
+DATE-OBS: '2012-09-06T10:56:15'
+CRPIX1 Sky X Pixel: 450.91
+CRPIX2 Sky Y Pixel: 450.91
+esky2det datastyle=user ra=266.967041666667 dec=-28.4651388888889 outunit=det withheader=no calinfostyle=set calinfoset=pnS003-obj-im-500-10000.fits verbosity=0
+   
+Reference Detector DETX Coord: -1084.510845
+Reference Detector DETY Coord: 1480.0148
+   
+rot_det_sky mode=1 prefix=S003 elow=500 ehigh=10000 detx=-1084.510845 dety=1480.0148 skyx=450.91 skyy=450.91 maskfile=1 clobber=1
+   
+   
+ Standard Mask = pnS003-mask-im.fits                                                                                                                 
+   
+ X CROTN          =    0.0000000000000000     
+ Template File = pnS003-obj-im-500-10000.fits                                                                                                        
+ Template image coordinate system: -TAN
+ Template image coordinate ID: RA---TAN  DEC--TAN
+ Template image central coordinates:    266.96704166666700       -28.465138888888902     
+ Template image reference pixel:    450.91000000000003        450.91000000000003     
+ Template image pixel sizes:   -6.9444444444444501E-004   6.9444444444444501E-004
+ Template image rotation angle:    270.04656982421898     
+ Template image NAXES, NAXIS:            2         900         900
+   
+ Image to be Recast = pnS003-back-im-det-500-10000.fits                                                                                                   
+  -1084.5108450000000        1480.0147999999999     
+ Original image coordinate system: -TAN
+ Original image coordinate ID: RA---TAN  DEC--TAN
+ Original image central coordinates:    266.94824999999997       -28.441722200000001     
+ Original image reference pixel:    411.17021690000001        420.08029600000003     
+ Original image pixel sizes:   -6.9444444444444501E-004   6.9444444444444501E-004
+ Original image rotation angle:    0.0000000000000000     
+ Original image NAXES, NAXIS:            2         780         780
+ Initial sum of counts in input image:               NaN
+      608400  non-zero input pixels
+              NaN  cast counts
+   
+ Values after standard masking
+      334590  non-zero input pixels
+              NaN  cast counts
+   
+ Output File = pnS003-back-im-sky-500-10000.fits                                                                                                   
+ Output image coordinate system: -TAN
+ Output image coordinate ID: RA---TAN  DEC--TAN
+ Output image central coordinates:    266.96704166666700       -28.465138888888902     
+ Output image reference pixel:    450.91000000000003        450.91000000000003     
+ Output image pixel sizes:   -6.9444444444444501E-004   6.9444444444444501E-004
+ Output image rotation angle:    180.04656982421898     
+ Output image NAXES, NAXIS:            2         900         900
+ writing output rotarr       810000         900         900
+--------------------------------------------
+Starting spectral analysis
+--------------------------------------------
+Processing ObsID : 0694640601
+--------------------------------------------
+evselect:- Executing (routine): evselect table=mos1S001-clean.fits:EVENTS filteredset=filtered.fits withfilteredset=yes keepfilteroutput=yes flagcolumn=EVFLAG flagbit=-1 destruct=yes dssblock='' expression='(PATTERN<=12)&&(FLAG == 0)&&(PI in [500:8000])' filtertype=expression cleandss=no updateexposure=yes filterexposure=yes writedss=yes blockstocopy='' attributestocopy='' energycolumn=PHA zcolumn=WEIGHT zerrorcolumn=EWEIGHT withzerrorcolumn=no withzcolumn=no ignorelegallimits=yes imageset=mos1S001-obj-im.fits xcolumn=X ycolumn=Y ximagebinsize=1 yimagebinsize=1 squarepixels=yes ximagesize=900 yimagesize=900 imagebinning=imageSize ximagemin=3401 ximagemax=48400 withxranges=yes yimagemin=3401 yimagemax=48400 withyranges=yes imagedatatype=Int32 withimagedatatype=yes raimagecenter=0 decimagecenter=0 withcelestialcenter=no withimageset=yes spectrumset=spectrum.fits spectralbinsize=5 specchannelmin=0 specchannelmax=11999 withspecranges=no nonStandardSpec=no withspectrumset=no rateset=rate.fits timecolumn=TIME timebinsize=1 timemin=0 timemax=1000 withtimeranges=no maketimecolumn=no makeratecolumn=no withrateset=no histogramset=histo.fits histogramcolumn=TIME histogrambinsize=1 histogrammin=0 histogrammax=1000 withhistoranges=no withhistogramset=no  -w 1 -V 1
+eexpmap:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EPN, LINCOORD, 9, /user/home/dehiwald/workdir/sasfiles/ccf/EPN_LINCOORD_0009.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, BORESIGHT, 32, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_BORESIGHT_0032.CCF, 2000-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+eexpmap:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EPN, LINCOORD, 9, /user/home/dehiwald/workdir/sasfiles/ccf/EPN_LINCOORD_0009.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, BORESIGHT, 32, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_BORESIGHT_0032.CCF, 2000-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+Set to: notSpecified
+rmfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+eexpmap:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EPN, LINCOORD, 9, /user/home/dehiwald/workdir/sasfiles/ccf/EPN_LINCOORD_0009.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, BORESIGHT, 32, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_BORESIGHT_0032.CCF, 2000-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+eexpmap:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EPN, LINCOORD, 9, /user/home/dehiwald/workdir/sasfiles/ccf/EPN_LINCOORD_0009.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, BORESIGHT, 32, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_BORESIGHT_0032.CCF, 2000-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS1, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS1, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_MODEPARAM_0006.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS1, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS1, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS1_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS1, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS1_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT1, XAREAEF, 10, /user/home/dehiwald/workdir/sasfiles/ccf/XRT1_XAREAEF_0010.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+ xmmdir: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas                                                                               
+ diag:            0
+ prefix: 1S001
+ mosnum:            1
+ obj_file: mos1S001-obj.pi                                                                 
+ obj_rmf: mos1S001.rmf                                                                    
+ el, eh:          500       10000
+ CCD selection           1           1           1           1           1           1           1
+ WARNING: if chip 3, 4 or 6 are missing spurious 
+ gold features can arise in the 2.04-2.33, 
+ 9.38-9.98, 11.03-11.82 keV regions
+ Observation took place after MOS1 CCD6 was lost
+ Set ccd(6) equal to 0
+ Revised CCD selection 
+ CCD selection           1           1           1           1           1           0           1
+ Revolution        2334
+   40784.6055       8159508.00       1.00000000            2334   694640601
+ Band range in keV:   0.500000000       10.0000000    
+ Band channel range:          101        2000
+  
+ Process the observation data
+ READ_PHA POSITION 12b
+ Missing EXPOSURE keyword
+ Probably due to exclustion of of the CCD in the selection expression
+ or no selected data on the CCD
+ Missing file: mos1S001-2obj.pi                                                                
+      in XMM_BACK, noted on return from READ_PHA
+ READ_PHA POSITION 12b
+ Missing EXPOSURE keyword
+ Probably due to exclustion of of the CCD in the selection expression
+ or no selected data on the CCD
+ Missing file: mos1S001-3obj.pi                                                                
+      in XMM_BACK, noted on return from READ_PHA
+ READ_PHA POSITION 12b
+ Missing EXPOSURE keyword
+ Probably due to exclustion of of the CCD in the selection expression
+ or no selected data on the CCD
+ Missing file: mos1S001-4obj.pi                                                                
+      in XMM_BACK, noted on return from READ_PHA
+ READ_PHA POSITION 12b
+ Missing EXPOSURE keyword
+ Probably due to exclustion of of the CCD in the selection expression
+ or no selected data on the CCD
+ Missing file: mos1S001-5obj.pi                                                                
+      in XMM_BACK, noted on return from READ_PHA
+ READ_PHA POSITION 12b
+ Missing EXPOSURE keyword
+ Probably due to exclustion of of the CCD in the selection expression
+ or no selected data on the CCD
+ Missing file: mos1S001-7obj.pi                                                                
+      in XMM_BACK, noted on return from READ_PHA
+ Backscale and exposure from the observation data
+ Chip 1  exposure =     40784.6  backscale =    5.7
+ Chip 2  exposure =         0.0  backscale =    0.0
+ Chip 3  exposure =         0.0  backscale =    0.0
+ Chip 4  exposure =         0.0  backscale =    0.0
+ Chip 5  exposure =         0.0  backscale =    0.0
+ Chip 7  exposure =         0.0  backscale =    0.0
+  
+ Process the FWC data from the object region
+ READ_PHA POSITION 12b
+ Missing EXPOSURE keyword
+ Probably due to exclustion of of the CCD in the selection expression
+ or no selected data on the CCD
+ READ_PHA POSITION 12b
+ Missing EXPOSURE keyword
+ Probably due to exclustion of of the CCD in the selection expression
+ or no selected data on the CCD
+ READ_PHA POSITION 12b
+ Missing EXPOSURE keyword
+ Probably due to exclustion of of the CCD in the selection expression
+ or no selected data on the CCD
+ READ_PHA POSITION 12b
+ Missing EXPOSURE keyword
+ Probably due to exclustion of of the CCD in the selection expression
+ or no selected data on the CCD
+ READ_PHA POSITION 12b
+ Missing EXPOSURE keyword
+ Probably due to exclustion of of the CCD in the selection expression
+ or no selected data on the CCD
+ Backscale and exposure from the FWC data
+ Chip 1  exposure =   1914525.1  backscale =    5.7
+ Chip 2  exposure =   1914525.1  backscale =    0.0
+ Chip 3  exposure =   1914525.1  backscale =    0.0
+ Chip 4  exposure =   1914525.1  backscale =    0.0
+ Chip 5  exposure =   1914525.1  backscale =    0.0
+ Chip 7  exposure =   1914525.1  backscale =    0.0
+  
+ Process the observation data from the corner regions
+ mosnum, i, hard, icanflag:            1           2   3.42857146               1
+ CalDB Directory: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas                                                                               
+ mosnam 1
+ qpb_fi /mos1-qpb.fits.gz        
+ CalDB QPB File: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas/mos1-qpb.fits.gz                                                              
+ CalDB File: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas/mos1-qpb.fits.gz          
+ Total number of Obs in QPB file:         7202
+ Rate:    3.14928181E-02  Rate error:    1.45064387E-03
+ Hard:    3.42857146      Hard error:   0.890257895    
+ Exposure:    1001495.00    
+ Exposure weighted count rate:    3.14190276E-02
+ Observation count rate:    3.14928181E-02  and ratio:   0.997656882    
+ expo, back/1440000.0 =    1039951.38       21.1123810    
+ rate, aug_rate, hrate, aug_hrate:    3.14928181E-02   3.15255113E-02   1.70330815E-02   1.75190885E-02
+ rate/aug_rate, hrate/aug_hrate:   0.998962939      0.972258449    
+ tot1 aug_rate rate tot1/expo expo:   32751.1328       3.15255113E-02   3.14928181E-02   3.14929448E-02   1039951.38    
+           2   30401828.0       1039951.38       3.14928181E-02   3.15255113E-02   43430.1055       1.37365619E-09
+ mosnum, i, hard, icanflag:            1           3   4.22222233               1
+ CalDB Directory: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas                                                                               
+ mosnam 1
+ qpb_fi /mos1-qpb.fits.gz        
+ CalDB QPB File: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas/mos1-qpb.fits.gz                                                              
+ CalDB File: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas/mos1-qpb.fits.gz          
+ Total number of Obs in QPB file:         7203
+ Rate:    2.51124669E-02  Rate error:    1.33205438E-03
+ Hard:    4.22222233      Hard error:    1.14088702    
+ Exposure:    1034569.25    
+ Exposure weighted count rate:    2.49156840E-02
+ Observation count rate:    2.51124669E-02  and ratio:   0.992163956    
+ expo, back/1440000.0 =    1067278.62       19.9467106    
+ rate, aug_rate, hrate, aug_hrate:    2.51124669E-02   2.51358915E-02   1.27154840E-02   1.30753107E-02
+ rate/aug_rate, hrate/aug_hrate:   0.999068081      0.972480416    
+ tot1 aug_rate rate tot1/expo expo:   26802.1367       2.51358915E-02   2.51124669E-02   2.51125954E-02   1067278.62    
+           3   28723264.0       1067278.62       2.51124669E-02   2.51358915E-02   32538.8398       1.06142595E-09
+ mosnum, i, hard, icanflag:            1           4  0.556034505              -1
+ CCD #4 strongly anomalous, reprocess without it
+  Hardness Ratio:   0.556034505    
+ rate, aug_rate, hrate, aug_hrate:    5.39979227E-02   5.39979227E-02   1.77295618E-02   1.77295618E-02
+ rate/aug_rate, hrate/aug_hrate:    1.00000000       1.00000000    
+ tot1 aug_rate rate tot1/expo expo:   2202.00000       5.39979227E-02   5.39979227E-02   5.39979227E-02   40779.3477    
+           4   45199144.0       40779.3477       5.39979227E-02   5.39979227E-02   2840.00000       1.54081303E-09
+ mosnum, i, hard, icanflag:            1           5   4.75324678               1
+ CalDB Directory: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas                                                                               
+ mosnam 1
+ qpb_fi /mos1-qpb.fits.gz        
+ CalDB QPB File: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas/mos1-qpb.fits.gz                                                              
+ CalDB File: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas/mos1-qpb.fits.gz          
+ Total number of Obs in QPB file:         7203
+ Rate:    4.79356609E-02  Rate error:    1.72793970E-03
+ Hard:    4.75324678      Hard error:   0.642058969    
+ Exposure:    1000679.62    
+ Exposure weighted count rate:    4.79094386E-02
+ Observation count rate:    4.79356609E-02  and ratio:   0.999452949    
+ expo, back/1440000.0 =    1040916.06       33.7198792    
+ rate, aug_rate, hrate, aug_hrate:    4.79356609E-02   4.79702465E-02   2.46421173E-02   2.50221901E-02
+ rate/aug_rate, hrate/aug_hrate:   0.999279022      0.984810591    
+ tot1 aug_rate rate tot1/expo expo:   49896.9414       4.79702465E-02   4.79356609E-02   4.79356050E-02   1040916.06    
+           5   48556624.0       1040916.06       4.79356609E-02   4.79702465E-02   61038.8398       1.20764887E-09
+ mosnum, i, hard, icanflag:            1           7   3.73529410               1
+ CalDB Directory: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas                                                                               
+ mosnam 1
+ qpb_fi /mos1-qpb.fits.gz        
+ CalDB QPB File: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas/mos1-qpb.fits.gz                                                              
+ CalDB File: /user/home/dehiwald/workdir/sasfiles/caldb/caldb_esas/mos1-qpb.fits.gz          
+ Total number of Obs in QPB file:         7203
+ Rate:    3.39053236E-02  Rate error:    1.49356818E-03
+ Hard:    3.73529410      Hard error:   0.876674056    
+ Exposure:    1040979.62    
+ Exposure weighted count rate:    3.40217985E-02
+ Observation count rate:    3.39053236E-02  and ratio:    1.00343525    
+ expo, back/1440000.0 =    1085316.25       23.0950413    
+ rate, aug_rate, hrate, aug_hrate:    3.39053236E-02   3.39274369E-02   1.86454747E-02   1.91520210E-02
+ rate/aug_rate, hrate/aug_hrate:   0.999348223      0.973551273    
+ tot1 aug_rate rate tot1/expo expo:   36797.9531       3.39274369E-02   3.39053236E-02   3.39052826E-02   1085316.25    
+           7   33256860.0       1085316.25       3.39053236E-02   3.39274369E-02   48815.8438       1.35246536E-09
+  
+ Augmented exposure and backscale from the corners of the observation data
+ Chip 2  exposure =   1039951.4  backscale =   21.1
+ Chip 3  exposure =   1067278.6  backscale =   19.9
+ Chip 4  exposure =     40779.3  backscale =   31.4
+ Chip 5  exposure =   1040916.1  backscale =   33.7
+ Chip 7  exposure =   1085316.2  backscale =   23.1
+ Process the observation data from the center chip
+ N_SIMS:            5
+           2           3           4           5           7
+ Chip           1  observation corner total:    9.67149139E-10
+ Chip           2  observation corner total:    9.95252769E-10
+ Chip           3  observation corner total:    8.45453541E-10
+ Chip           4  observation corner total:    1.05142828E-09
+ Chip           5  observation corner total:    9.58465307E-10
+ Chip           7  observation corner total:    9.85140636E-10
+  
+ Process the FWC corner data
+ Exposure and backscale from the corners of the FWC data
+ Chip 2  exposure =   1927403.2  backscale =   21.3
+ Chip 3  exposure =   1927770.5  backscale =   19.9
+ Chip 4  exposure =   1925365.2  backscale =   31.4
+ Chip 5  exposure =   1925964.6  backscale =   35.7
+ Chip 7  exposure =   1923819.4  backscale =   23.3
+Add in CCD#1 background spectrum
+ mos1S001-im1-500-10000.fits                                                                                                         
+ Average non-zero value of FWC image:    4.90815115    
+ FWC image scaling for chip:            1   318.569733       16619.0000       1.91690065E-02
+CCD#2 not included in background spectrum
+CCD#3 not included in background spectrum
+CCD#4 not included in background spectrum
+CCD#5 not included in background spectrum
+CCD#6 not included in background spectrum
+CCD#7 not included in background spectrum
+ Total observation counts in band    1136.00000    
+ Total background counts in band    315.905792    
+ File exists with output file namemos1S001-back-im-det-500-10000.fits                                             
+ Clobber the file and continue
+
+  Np = 5 N =1426 M.L.E. =   2878.    
+ Final parameter values and the formal standard errors
+
+ I0                 -27.98820 +/-    0.02195
+ I1                  -0.83362 +/-    0.05225
+ I2                   0.21295 +/-    0.11865
+ I3                  -0.06993 +/-    0.18689
+ I4                   0.08562 +/-    0.10868
+ I5                  -0.02642 +/-    0.02051
+   8159508.00    
+ Background spectrum file already exists: mos1S001-back.pi                                                                
+ Clobber the file and continue
+   
+Task: rot-im-det-sky 
+Version: 3.1
+Date: 2011-02-10
+Author: S. L. Snowden
+prefix: 1S001
+elow: 500
+ehigh: 10000
+det: EMOS1
+de: 1
+mode: 1
+mask: 1
+clobber: 1
+imfile: mos1S001-obj-im-500-10000.fits[0]
+   
+CRVAL1 Right Ascension: 266.967041666667
+CRVAL2 Declination: -28.4651388888889
+PA_PNT rotation angle: 270.046569824219
+INSTRUME: 'EMOS1'
+DATE-OBS: '2012-09-06T10:34:03'
+CRPIX1 Sky X Pixel: 450.91
+CRPIX2 Sky Y Pixel: 450.91
+esky2det datastyle=user ra=266.967041666667 dec=-28.4651388888889 outunit=det withheader=no calinfostyle=set calinfoset=mos1S001-obj-im-500-10000.fits verbosity=0
+   
+Reference Detector DETX Coord: -1412.214122
+Reference Detector DETY Coord: -1394.113941
+   
+rot_det_sky mode=1 prefix=1S001 elow=500 ehigh=10000 detx=-1412.214122 dety=-1394.113941 skyx=450.91 skyy=450.91 maskfile=1 clobber=1
+   
+   
+ Standard Mask = mos1S001-mask-im.fits                                                                                                               
+   
+ X CROTN          =    0.0000000000000000     
+ Template File = mos1S001-obj-im-500-10000.fits                                                                                                      
+ Template image coordinate system: -TAN
+ Template image coordinate ID: RA---TAN  DEC--TAN
+ Template image central coordinates:    266.96704166666700       -28.465138888888902     
+ Template image reference pixel:    450.91000000000003        450.91000000000003     
+ Template image pixel sizes:   -6.9444444444444501E-004   6.9444444444444501E-004
+ Template image rotation angle:    270.04656982421898     
+ Template image NAXES, NAXIS:            2         900         900
+   
+ Image to be Recast = mos1S001-back-im-det-500-10000.fits                                                                                                 
+  -1412.2141220000001       -1394.1139410000001     
+ Original image coordinate system: -TAN
+ Original image coordinate ID: RA---TAN  DEC--TAN
+ Original image central coordinates:    266.94824999999997       -28.441722200000001     
+ Original image reference pixel:    417.72428244000002        362.59772118000001     
+ Original image pixel sizes:   -6.9444444444444501E-004   6.9444444444444501E-004
+ Original image rotation angle:    0.0000000000000000     
+ Original image NAXES, NAXIS:            2         780         780
+ Initial sum of counts in input image:    315.906281    
+        3386  non-zero input pixels
+   315.905792      cast counts
+   
+ Values after standard masking
+      289845  non-zero input pixels
+   311.730774      cast counts
+   
+ Output File = mos1S001-back-im-sky-500-10000.fits                                                                                                 
+ Output image coordinate system: -TAN
+ Output image coordinate ID: RA---TAN  DEC--TAN
+ Output image central coordinates:    266.96704166666700       -28.465138888888902     
+ Output image reference pixel:    450.91000000000003        450.91000000000003     
+ Output image pixel sizes:   -6.9444444444444501E-004   6.9444444444444501E-004
+ Output image rotation angle:    270.04656982421898     
+ Output image NAXES, NAXIS:            2         900         900
+ writing output rotarr       810000         900         900
+--------------------------------------------
+Starting spectral analysis
+--------------------------------------------
+Processing ObsID : 0694640601
+--------------------------------------------
+evselect:- Executing (routine): evselect table=mos2S002-clean.fits:EVENTS filteredset=filtered.fits withfilteredset=yes keepfilteroutput=yes flagcolumn=EVFLAG flagbit=-1 destruct=yes dssblock='' expression='(PATTERN<=12)&&(FLAG == 0)&&(PI in [500:8000])' filtertype=expression cleandss=no updateexposure=yes filterexposure=yes writedss=yes blockstocopy='' attributestocopy='' energycolumn=PHA zcolumn=WEIGHT zerrorcolumn=EWEIGHT withzerrorcolumn=no withzcolumn=no ignorelegallimits=yes imageset=mos2S002-obj-im.fits xcolumn=X ycolumn=Y ximagebinsize=1 yimagebinsize=1 squarepixels=yes ximagesize=900 yimagesize=900 imagebinning=imageSize ximagemin=3401 ximagemax=48400 withxranges=yes yimagemin=3401 yimagemax=48400 withyranges=yes imagedatatype=Int32 withimagedatatype=yes raimagecenter=0 decimagecenter=0 withcelestialcenter=no withimageset=yes spectrumset=spectrum.fits spectralbinsize=5 specchannelmin=0 specchannelmax=11999 withspecranges=no nonStandardSpec=no withspectrumset=no rateset=rate.fits timecolumn=TIME timebinsize=1 timemin=0 timemax=1000 withtimeranges=no maketimecolumn=no makeratecolumn=no withrateset=no histogramset=histo.fits histogramcolumn=TIME histogrambinsize=1 histogrammin=0 histogrammax=1000 withhistoranges=no withhistogramset=no  -w 1 -V 1
+eexpmap:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EPN, LINCOORD, 9, /user/home/dehiwald/workdir/sasfiles/ccf/EPN_LINCOORD_0009.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, BORESIGHT, 32, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_BORESIGHT_0032.CCF, 2000-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+evselect:- Executing (routine): evselect table=mos2S002-clean.fits:EVENTS filteredset=filtered.fits withfilteredset=yes keepfilteroutput=yes flagcolumn=EVFLAG flagbit=-1 destruct=yes dssblock='' expression='(PATTERN<=12)&&(FLAG == 0)&&(PI in [500:8000])' filtertype=expression cleandss=no updateexposure=yes filterexposure=yes writedss=yes blockstocopy='' attributestocopy='' energycolumn=PHA zcolumn=WEIGHT zerrorcolumn=EWEIGHT withzerrorcolumn=no withzcolumn=no ignorelegallimits=yes imageset=mos2S002-obj-im.fits xcolumn=X ycolumn=Y ximagebinsize=1 yimagebinsize=1 squarepixels=yes ximagesize=900 yimagesize=900 imagebinning=imageSize ximagemin=3401 ximagemax=48400 withxranges=yes yimagemin=3401 yimagemax=48400 withyranges=yes imagedatatype=Int32 withimagedatatype=yes raimagecenter=0 decimagecenter=0 withcelestialcenter=no withimageset=yes spectrumset=spectrum.fits spectralbinsize=5 specchannelmin=0 specchannelmax=11999 withspecranges=no nonStandardSpec=no withspectrumset=no rateset=rate.fits timecolumn=TIME timebinsize=1 timemin=0 timemax=1000 withtimeranges=no maketimecolumn=no makeratecolumn=no withrateset=no histogramset=histo.fits histogramcolumn=TIME histogrambinsize=1 histogrammin=0 histogrammax=1000 withhistoranges=no withhistogramset=no  -w 1 -V 1
+eexpmap:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EPN, LINCOORD, 9, /user/home/dehiwald/workdir/sasfiles/ccf/EPN_LINCOORD_0009.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, BORESIGHT, 32, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_BORESIGHT_0032.CCF, 2000-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS2, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_MODEPARAM_0006.CCF, 1999-01-01T00:00:00.000}
+CifEntry{EMOS2, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS2, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+Set to: notSpecified
+rmfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS2, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_MODEPARAM_0006.CCF, 1999-01-01T00:00:00.000}
+CifEntry{EMOS2, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS2, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS2, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_MODEPARAM_0006.CCF, 1999-01-01T00:00:00.000}
+CifEntry{EMOS2, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS2, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+eexpmap:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EPN, LINCOORD, 9, /user/home/dehiwald/workdir/sasfiles/ccf/EPN_LINCOORD_0009.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, BORESIGHT, 32, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_BORESIGHT_0032.CCF, 2000-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS2, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_MODEPARAM_0006.CCF, 1999-01-01T00:00:00.000}
+CifEntry{EMOS2, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS2, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+eexpmap:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EPN, LINCOORD, 9, /user/home/dehiwald/workdir/sasfiles/ccf/EPN_LINCOORD_0009.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, BORESIGHT, 32, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_BORESIGHT_0032.CCF, 2000-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS2, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_MODEPARAM_0006.CCF, 1999-01-01T00:00:00.000}
+CifEntry{EMOS2, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS2, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS2, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_MODEPARAM_0006.CCF, 1999-01-01T00:00:00.000}
+CifEntry{EMOS2, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS2, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS2, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_MODEPARAM_0006.CCF, 1999-01-01T00:00:00.000}
+CifEntry{EMOS2, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS2, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS2, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_MODEPARAM_0006.CCF, 1999-01-01T00:00:00.000}
+CifEntry{EMOS2, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS2, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+
+Making file temp_badcol.ds
+backscale::arfgen:- CCF constituents accessed by the calibration server:
+CifEntry{EMOS2, CONTAMINATION, 1, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_CONTAMINATION_0001.CCF, 2000-01-01T00:00:00.000}
+CifEntry{EMOS2, FILTERTRANSX, 15, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_FILTERTRANSX_0015.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, LINCOORD, 18, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_LINCOORD_0018.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, MODEPARAM, 6, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_MODEPARAM_0006.CCF, 1999-01-01T00:00:00.000}
+CifEntry{EMOS2, PATTERNLIB, 5, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_PATTERNLIB_0005.CCF, 1998-01-01T00:00:00.000}
+CifEntry{EMOS2, QUANTUMEF, 21, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_QUANTUMEF_0021.CCF, 2002-11-08T00:00:01.000}
+CifEntry{EMOS2, TIMECORR, 3, /user/home/dehiwald/workdir/sasfiles/ccf/EMOS2_TIMECORR_0003.CCF, 1998-01-01T00:00:00.000}
+CifEntry{RGS2, LINCOORD, 8, /user/home/dehiwald/workdir/sasfiles/ccf/RGS2_LINCOORD_0008.CCF, 1998-01-01T00:00:00.000}
+CifEntry{XMM, ABSCOEFS, 4, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_ABSCOEFS_0004.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XMM, MISCDATA, 22, /user/home/dehiwald/workdir/sasfiles/ccf/XMM_MISCDATA_0022.CCF, 1999-01-01T00:00:00.000}
+CifEntry{XRT2, XAREAEF, 11, /user/home/dehiwald/workdir/sasfiles/ccf/XRT2_XAREAEF_0011.CCF, 2000-01-13T00:00:00.000}
+CifEntry{XRT3, XAREAEF, 14, /user/home/dehiwald/workdir/sasfiles/ccf/XRT3_XAREAEF_0014.CCF, 2000-01-13T00:00:00.000}
+
+

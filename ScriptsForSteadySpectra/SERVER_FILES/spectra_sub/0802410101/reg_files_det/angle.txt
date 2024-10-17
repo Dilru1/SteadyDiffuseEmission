@@ -1,0 +1,6 @@
+conv_reg:-  command = esky2det datastyle=user ra=266.825043 dec=-28.387819 instrument=EPN checkfov=no  outunit=det withheader=no calinfostyle=set  calinfoset=pnS003-obj-image-sky.fits verbosity=0 > detpos.txt
+   1 ELLIPSE       -560.400    -444.000     120.000     120.000     241.364
+conv_reg:-  command = esky2det datastyle=user ra=266.825043 dec=-28.387819 instrument=EMOS1 checkfov=no  outunit=det withheader=no calinfostyle=set  calinfoset=mos1S001-obj-image-sky.fits verbosity=0 > detpos.txt
+   1 ELLIPSE        513.800    -877.200     120.000     120.000     151.364
+conv_reg:-  command = esky2det datastyle=user ra=266.825043 dec=-28.387819 instrument=EMOS2 checkfov=no  outunit=det withheader=no calinfostyle=set  calinfoset=mos2S002-obj-image-sky.fits verbosity=0 > detpos.txt
+   1 ELLIPSE        709.500     293.100     120.000     120.000     241.364

@@ -1,0 +1,1 @@
+&&((DETX,DETY) IN circle(709.5,293.1,450)

@@ -1,0 +1,203 @@
+--------------------------------------------
+Starting spectral analysis
+--------------------------------------------
+Processing ObsID : 0802410101
+--------------------------------------------
+Saving Primary Science product in a BACKUP Directory
+Backup directory created: BACKUP_MAIN
+Copying contents from 0802410101 to BACKUP_MAIN...
+Copy completed.
+/user/home/dehiwald/workdir/galactic_center/analysis/0802410101/
+/user/home/dehiwald/workdir/galactic_center/analysis/0802410101/
+10.5 4.0
+266.97298650918265 -28.442722482811885
+13.5 4.0
+266.95824359337894 -28.46409965753617
+6.0 5.0
+266.98698738368773 -28.406334586528963
+11.5 5.0
+266.9599686443369 -28.445527606499436
+14.0 5.0
+266.947680770861 -28.463340864565666
+8.0 6.0
+266.96906235723924 -28.41626696019656
+10.0 6.0
+266.9592363359861 -28.430518301113004
+14.0 6.0
+266.93957634056864 -28.45901888088579
+12.5 7.0
+266.9388468304114 -28.44400946260313
+6.5 8.0
+266.9602284488006 -28.396936936782467
+12.0 8.0
+266.93320216713164 -28.436124690379224
+6.0 9.0
+266.9545847076399 -28.389053046628163
+8.0 9.0
+266.9447592570487 -28.40330334307937
+12.5 9.0
+266.922642306625 -28.43536395800549
+10.0 10.0
+266.92683074941226 -28.413230195320708
+15.0 10.0
+266.9022471793908 -28.448849674143
+7.0 11.0
+266.9334742318729 -28.387534049648472
+12.0 11.0
+266.90889886956285 -28.423154705571417
+6.0 12.0
+266.93028961118176 -28.376086850684096
+9.5 12.0
+266.91308970405674 -28.40102136162551
+15.0 12.0
+266.88604489124407 -28.4401998325955
+8.5 13.0
+266.90990687972686 -28.389573682578128
+12.0 13.0
+266.89269997243804 -28.414505648060647
+15.0 13.0
+266.8779447391231 -28.435874191458385
+10.5 8.5
+266.9365242561335 -28.42327649965083
+Files with extension  copied successfully.
+Files with extension  copied successfully.
+/user/home/dehiwald/workdir/galactic_center/analysis/0802410101/
+215
+['DETX:', 'DETY:', '8991.496', '-3931.1325']
+['DETX:', 'DETY:', '8134.244', '-5513.8911']
+['DETX:', 'DETY:', '9749.7869', '-1271.2452']
+['DETX:', 'DETY:', '8178.1591', '-4172.967']
+['DETX:', 'DETY:', '7463.7822', '-5491.9325']
+['DETX:', 'DETY:', '8650.6999', '-2040.6652']
+['DETX:', 'DETY:', '8079.1988', '-3095.8366']
+['DETX:', 'DETY:', '6936.1959', '-5206.1808']
+['DETX:', 'DETY:', '6837.2358', '-4129.05']
+['DETX:', 'DETY:', '8024.1536', '-677.78461']
+['DETX:', 'DETY:', '6452.5251', '-3579.5056']
+['DETX:', 'DETY:', '7639.4429', '-128.24096']
+['DETX:', 'DETY:', '7067.9419', '-1183.4116']
+['DETX:', 'DETY:', '5782.0637', '-3557.5471']
+['DETX:', 'DETY:', '5968.8547', '-1952.8314']
+['DETX:', 'DETY:', '4540.1003', '-4590.7606']
+['DETX:', 'DETY:', '6298.5209', '-84.32422']
+['DETX:', 'DETY:', '4869.7672', '-2722.2514']
+['DETX:', 'DETY:', '6056.6859', '729.01177']
+['DETX:', 'DETY:', '5056.5585', '-1117.5364']
+['DETX:', 'DETY:', '3484.9285', '-4019.2575']
+['DETX:', 'DETY:', '4814.7237', '-304.20007']
+['DETX:', 'DETY:', '3814.5957', '-2150.7489']
+['DETX:', 'DETY:', '2957.3427', '-3733.5061']
+215
+['DETX:', 'DETY:', '4036.8484', '8661.429']
+['DETX:', 'DETY:', '5616.371', '7798.2276']
+['DETX:', 'DETY:', '1379.8315', '9429.7224']
+['DETX:', 'DETY:', '4275.6213', '7847.1872']
+['DETX:', 'DETY:', '5591.89', '7127.8526']
+['DETX:', 'DETY:', '2145.1115', '8327.7473']
+['DETX:', 'DETY:', '3198.1258', '7752.2799']
+['DETX:', 'DETY:', '5304.1553', '6601.3446']
+['DETX:', 'DETY:', '4226.6596', '6506.4375']
+['DETX:', 'DETY:', '779.88282', '7706.3322']
+['DETX:', 'DETY:', '3675.6715', '6123.7967']
+['DETX:', 'DETY:', '228.8955', '7323.6914']
+['DETX:', 'DETY:', '1281.9091', '6748.2241']
+['DETX:', 'DETY:', '3651.1907', '5453.4222']
+['DETX:', 'DETY:', '2047.1888', '5646.2492']
+['DETX:', 'DETY:', '4679.7243', '4207.5799']
+['DETX:', 'DETY:', '179.93446', '5982.9429']
+['DETX:', 'DETY:', '2812.4685', '4544.2742']
+['DETX:', 'DETY:', '-634.30588', '5744.1693']
+['DETX:', 'DETY:', '1208.4673', '4737.1014']
+['DETX:', 'DETY:', '4104.2554', '3154.5652']
+['DETX:', 'DETY:', '394.22672', '4498.328']
+['DETX:', 'DETY:', '2237.0002', '3491.2598']
+['DETX:', 'DETY:', '3816.5211', '2628.0581']
+215
+['DETX:', 'DETY:', '-8811.0907', '3864.7572']
+['DETX:', 'DETY:', '-7939.8398', '5439.8554']
+['DETX:', 'DETY:', '-9592.9327', '1211.694']
+['DETX:', 'DETY:', '-7995.6404', '4099.3717']
+['DETX:', 'DETY:', '-7269.5978', '5411.9534']
+['DETX:', 'DETY:', '-8487.0661', '1971.3405']
+['DETX:', 'DETY:', '-7906.2324', '3021.405']
+['DETX:', 'DETY:', '-6744.5646', '5121.5351']
+['DETX:', 'DETY:', '-6655.157', '4043.5681']
+['DETX:', 'DETY:', '-7872.6251', '602.95763']
+['DETX:', 'DETY:', '-6275.3325', '3490.6339']
+['DETX:', 'DETY:', '-7492.8007', '50.024514']
+['DETX:', 'DETY:', '-6911.9672', '1100.088']
+['DETX:', 'DETY:', '-5605.0912', '3462.7322']
+['DETX:', 'DETY:', '-5806.1009', '1859.7343']
+['DETX:', 'DETY:', '-4354.0158', '4484.8951']
+['DETX:', 'DETY:', '-6152.3189', '-5.7782354']
+['DETX:', 'DETY:', '-4700.2345', '2619.3806']
+['DETX:', 'DETY:', '-5917.7033', '-821.2267']
+['DETX:', 'DETY:', '-4901.2445', '1016.3835']
+['DETX:', 'DETY:', '-3303.9509', '3904.0592']
+['DETX:', 'DETY:', '-4666.6292', '200.93476']
+['DETX:', 'DETY:', '-3650.1699', '2038.5455']
+['DETX:', 'DETY:', '-2778.9186', '3613.6414']
+4036.848
+5616.371
+1379.832
+4275.621
+5591.89
+2145.112
+3198.126
+5304.155
+4226.66
+779.883
+3675.672
+228.896
+1281.909
+3651.191
+2047.189
+4679.724
+179.934
+2812.468
+-634.306
+1208.467
+4104.255
+394.227
+2237.0
+3816.521
+/user/home/dehiwald/workdir/galactic_center/analysis/0802410101/
+['box(6617.3582,-2645.2511,5980,5980,58.72)']
+[('ROTBOX', [6617.3584,    0.    ,    0.    ,    0.    ], [-2645.2512,     0.    ,     0.    ,     0.    ], [5980., 5980.,    0.,    0.], [58.72,  0.  ,  0.  ,  0.  ], 1)]
+['box(2742.0436,6292.1436,5980,5980,148.72)']
+[('ROTBOX', [2742.0437,    0.    ,    0.    ,    0.    ], [6292.1436,    0.    ,    0.    ,    0.    ], [5980., 5980.,    0.,    0.], [148.72,   0.  ,   0.  ,   0.  ], 1)]
+['box(-6448.4415,2557.8767,5980,5980,58.72)']
+[('ROTBOX', [-6448.4414,     0.    ,     0.    ,     0.    ], [2557.8767,    0.    ,    0.    ,    0.    ], [5980., 5980.,    0.,    0.], [58.72,  0.  ,  0.  ,  0.  ], 1)]
+['box(18452.877,21419.432,6015.0,6015.0,301.28)']
+[('ROTBOX', [18452.877,     0.   ,     0.   ,     0.   ], [21419.432,     0.   ,     0.   ,     0.   ], [6015., 6015.,    0.,    0.], [301.28,   0.  ,   0.  ,   0.  ], 1)]
+['box(18452.877,21419.432,6015.0,6015.0,301.28)']
+[('ROTBOX', [18452.877,     0.   ,     0.   ,     0.   ], [21419.432,     0.   ,     0.   ,     0.   ], [6015., 6015.,    0.,    0.], [301.28,   0.  ,   0.  ,   0.  ], 1)]
+['box(18452.877,21419.432,6015.0,6015.0,301.28)']
+[('ROTBOX', [18452.877,     0.   ,     0.   ,     0.   ], [21419.432,     0.   ,     0.   ,     0.   ], [6015., 6015.,    0.,    0.], [301.28,   0.  ,   0.  ,   0.  ], 1)]
+--------------------------------------------
+Current path: /user/home/dehiwald/workdir/galactic_center/analysis/spectra_sub/0802410101
+--------------------------------------------
+--------------------------------------------
+Starting spectral analysis
+--------------------------------------------
+Processing ObsID : 0802410101
+--------------------------------------------
+evselect:- Executing (routine): evselect table=pnS003-clean.fits:EVENTS filteredset=filtered.fits withfilteredset=yes keepfilteroutput=yes flagcolumn=EVFLAG flagbit=-1 destruct=yes dssblock='' expression='(PATTERN<=12)&&(FLAG == 0)&&(PI in [500:8000])&&(DETY in [-16510:14345])' filtertype=expression cleandss=no updateexposure=yes filterexposure=yes writedss=yes blockstocopy='' attributestocopy='' energycolumn=PHA zcolumn=WEIGHT zerrorcolumn=EWEIGHT withzerrorcolumn=no withzcolumn=no ignorelegallimits=yes imageset=pnS003-obj-im.fits xcolumn=X ycolumn=Y ximagebinsize=1 yimagebinsize=1 squarepixels=yes ximagesize=900 yimagesize=900 imagebinning=imageSize ximagemin=3401 ximagemax=48400 withxranges=yes yimagemin=3401 yimagemax=48400 withyranges=yes imagedatatype=Int32 withimagedatatype=yes raimagecenter=0 decimagecenter=0 withcelestialcenter=no withimageset=yes spectrumset=spectrum.fits spectralbinsize=5 specchannelmin=0 specchannelmax=11999 withspecranges=no nonStandardSpec=no withspectrumset=no rateset=rate.fits timecolumn=TIME timebinsize=1 timemin=0 timemax=1000 withtimeranges=no maketimecolumn=no makeratecolumn=no withrateset=no histogramset=histo.fits histogramcolumn=TIME histogrambinsize=1 histogrammin=0 histogrammax=1000 withhistoranges=no withhistogramset=no  -w 1 -V 1
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Set to: notSpecified
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds
+Making file temp_badcol.ds

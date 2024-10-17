@@ -1,0 +1,25 @@
+mkdir: cannot create directory '0862471101': File exists
+WARNING: FITSFixedWarning: RADECSYS= 'FK5 ' / World coord. system for this file 
+the RADECSYS keyword is deprecated, use RADESYSa. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'unitfix' made the change 'Changed units:
+  'degree' -> 'deg',
+  'degree' -> 'deg'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set DATEREF to '1998-01-01' from MJDREF.
+Set MJD-OBS to 59120.111597 from DATE-OBS.
+Set MJD-END to 59120.583391 from DATE-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 59120.093773 from DATE-OBS.
+Set MJD-END to 59120.587130 from DATE-END'. [astropy.wcs.wcs]
+WARNING: FITSFixedWarning: 'datfix' made the change 'Set MJD-OBS to 59120.094016 from DATE-OBS.
+Set MJD-END to 59120.587153 from DATE-END'. [astropy.wcs.wcs]
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times
+** evselect: warning (NoWCS), No WCS information available for image column DETX.
+** evselect: warning (SummaryOfWarnings), 
+   warning NoWCS silently occurred 1 times

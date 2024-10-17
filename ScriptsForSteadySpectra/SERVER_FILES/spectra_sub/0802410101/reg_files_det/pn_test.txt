@@ -1,0 +1,1 @@
+&&region(pnS003-bkg_region-det.fits)
