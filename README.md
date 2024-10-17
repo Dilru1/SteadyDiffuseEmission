@@ -230,7 +230,7 @@ ScriptsForSteadySpectra/
     └── 0862471101/                     # Scripts for 0862471101
     └── upload.sh                       # Script to upload SERVER_FILES to the remote location
 
-
+```
 ### Script List:
 
 The following scripts are listed in the order they should be executed:
@@ -250,7 +250,7 @@ Produces a DS9 region file (**reg_row_pix.reg**) for the mask files and saves it
 global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
 image
 box(15.5,15.5,30.0,30.0,0.0)
-```
+```DS9
 
 ### Script List:
 
