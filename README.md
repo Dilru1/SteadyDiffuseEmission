@@ -183,20 +183,18 @@ The following scripts have been created to extract the steady spectra for pixels
 │   ├── docs/                    # Documentation for the project
 │   └── README.md                # Project documentation and overview
 
-
+```
 
 ## Directory Structure for spectra 
 
 ```bash
 ├── analysis/
 │   ├── spectra_sub/                # Main analysis folder
-│   │   ├── 0112970301/             # [Description of what subdir1 contains]
-│   │   ├── 0112971501/             # [Description of what subdir2 contains]
-│   │   ├── 0203930101/             # [Description of what subdir3 contains]
-│   │   ├── 0694640601/             # [Description of what subdir4 contains]
+│   │   ├── 0112971501/             # [Description of what subdir1 contains]
+│   │   ├── 0203930101/             # [Description of what subdir2 contains]
+│   │   ├── 0694640601/             # [Description of what subdir3 contains]
+│   │   ├── 0694641301/             # [Description of what subdir4 contains]
 │   │   ├── 0694641301/             # [Description of what subdir5 contains]
-│   │   ├── 0112970301/             # [Description of what subdir1 contains]
-│   │   ├── 0802410101/             # [Description of what subdir2 contains]
-│   │   ├── 0862471101/             # [Description of what subdir3 contains]
-│   │   ├── 0862471001/             # [Description of what subdir4 contains]
-│   │   ├── *spectra_sub/*          # [Description of what subdir5 contains]
+│   │   ├── 0802410101/             # [Description of what subdir1 contains]
+│   │   ├── 0862471101/             # [Description of what subdir2 contains]
+```
